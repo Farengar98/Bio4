@@ -1,0 +1,1 @@
+../../../Bio/Bio.uproject  /Game/Levels/TempleRun/TempleRun -Messaging -SessionId=9C1109E24FED008310030EBE9EE4F6BB -SessionOwner="Ferran" -SessionName="Launch On Device" -iterative

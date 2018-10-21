@@ -1,9 +1,9 @@
-﻿Log file open, 10/21/18 16:04:19
+﻿Log file open, 10/21/18 18:40:12
 LogInit:Display: Running engine for game: Bio
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(367314407) SRandInit(367314407).
+LogInit:Display: RandInit(-928379319) SRandInit(-928379319).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.158554
+LogStats: Stats thread started at 0.156149
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,252 +50,380 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.21-14.04.22:590][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.21-14.04.22:590][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.21-14.04.22:596][  0]LogInit: Computer: DESKTOP-KR2EHTK
-[2018.10.21-14.04.22:596][  0]LogInit: User: Ferran
-[2018.10.21-14.04.22:596][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.21-14.04.22:596][  0]LogInit: High frequency timer resolution =3.349781 MHz
-[2018.10.21-14.04.22:597][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.10.21-14.04.22:597][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.21-14.04.22:597][  0]LogMemory: Process Physical Memory: 272.77 MB used, 272.77 MB peak
-[2018.10.21-14.04.22:597][  0]LogMemory: Process Virtual Memory: 266.76 MB used, 266.76 MB peak
-[2018.10.21-14.04.22:597][  0]LogMemory: Physical Memory: 6471.04 MB used,  1683.21 MB free, 8154.25 MB total
-[2018.10.21-14.04.22:597][  0]LogMemory: Virtual Memory: 4774.37 MB used,  1683.21 MB free, 134217728.00 MB total
-[2018.10.21-14.04.23:164][  0]LogInit: Using OS detected language (es-ES).
-[2018.10.21-14.04.23:164][  0]LogInit: Using OS detected locale (es-ES).
-[2018.10.21-14.04.23:172][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2018.10.21-14.04.24:113][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.21-14.04.24:139][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
-[2018.10.21-14.04.24:139][  0]LogD3D11RHI:       3052/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2018.10.21-14.04.24:143][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.21-14.04.24:143][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.21-14.04.24:143][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.21-14.04.24:149][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.21-14.04.24:149][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
-[2018.10.21-14.04.24:149][  0]LogWindows: EnumDisplayDevices:
-[2018.10.21-14.04.24:149][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:0 D:1)
-[2018.10.21-14.04.24:150][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:1 D:1)
-[2018.10.21-14.04.24:151][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2018.10.21-14.04.24:152][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2018.10.21-14.04.24:153][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2018.10.21-14.04.24:154][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2018.10.21-14.04.24:154][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.10.21-14.04.24:154][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
-[2018.10.21-14.04.24:154][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.10.21-14.04.24:154][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.10.21-14.04.24:154][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.10.21-14.04.24:213][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.21-14.04.24:224][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.10.21-14.04.24:226][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (E:/Project2/GITHUB DESKTOP/Bio/Bio/Intermediate/Shaders/WorkingDirectory/16552/).
-[2018.10.21-14.04.24:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ferran/AppData/Local/Temp/UnrealShaderWorkingDir/F1F422374087E0EE41B6F1BA5E101870/'.
-[2018.10.21-14.04.24:226][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.10.21-14.04.26:124][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.21-14.04.26:460][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.21-14.04.26:794][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.21-14.04.27:133][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.10.21-14.04.27:133][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.10.21-14.04.31:173][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.10.21-14.04.31:261][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Ferran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.10.21-14.04.31:261][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ferran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.10.21-14.04.31:261][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project2/GITHUB DESKTOP/Bio/Bio/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.21-14.04.31:261][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.21-14.04.31:261][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project2/GITHUB DESKTOP/Bio/Bio/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.21-14.04.31:261][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.21-14.04.31:277][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.21-14.04.31:291][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ferran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.21-14.04.31:292][  0]LogMaterial: Verifying Global Shaders for PCD3D_ES2
-[2018.10.21-14.04.31:729][  0]LogSlate: Using Freetype 2.6.0
-[2018.10.21-14.04.31:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.21-14.04.31:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.21-14.04.32:428][  0]LogAssetRegistry: FAssetRegistry took 0.0053 seconds to start up
-[2018.10.21-14.04.32:437][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.009238 seconds
-[2018.10.21-14.04.32:587][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.21-14.04.32:692][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2018.10.21-14.04.32:728][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2018.10.21-14.06.11:684][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
-[2018.10.21-14.06.25:202][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
-[2018.10.21-14.06.25:465][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
-[2018.10.21-14.06.26:580][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
-[2018.10.21-14.06.26:588][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
-[2018.10.21-14.06.27:409][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.21-14.06.27:869][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.21-14.06.28:322][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.21-14.06.28:322][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.10.21-14.06.28:322][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.10.21-14.06.29:384][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
-[2018.10.21-14.06.29:413][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
-[2018.10.21-14.06.29:421][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
-[2018.10.21-14.06.29:461][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
-[2018.10.21-14.06.29:541][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
-[2018.10.21-14.06.29:604][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
-[2018.10.21-14.06.29:638][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
-[2018.10.21-14.06.29:721][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2018.10.21-14.06.29:729][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2018.10.21-14.06.29:743][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2018.10.21-14.06.29:754][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2018.10.21-14.06.29:762][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2018.10.21-14.06.29:774][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
-[2018.10.21-14.06.30:196][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
-[2018.10.21-14.06.30:209][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
-[2018.10.21-14.06.30:311][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
-[2018.10.21-14.06.30:335][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
-[2018.10.21-14.06.30:396][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
-[2018.10.21-14.06.30:429][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
-[2018.10.21-14.06.30:894][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
-[2018.10.21-14.06.30:988][  0]LogNetVersion: Bio , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 343922727)
-[2018.10.21-14.06.31:006][  0]LogMaterial: Missing cached shader map for material GearVRControllerMaterial, compiling. 
-[2018.10.21-14.06.31:673][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.10.21-14.06.38:313][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
-[2018.10.21-14.06.38:342][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
-[2018.10.21-14.06.38:372][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
-[2018.10.21-14.06.38:424][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
-[2018.10.21-14.06.38:453][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
-[2018.10.21-14.06.38:463][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
-[2018.10.21-14.06.38:473][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
-[2018.10.21-14.06.38:479][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
-[2018.10.21-14.06.38:486][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
-[2018.10.21-14.06.38:501][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
-[2018.10.21-14.06.38:512][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
-[2018.10.21-14.06.38:522][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
-[2018.10.21-14.06.38:561][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
-[2018.10.21-14.06.38:602][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
-[2018.10.21-14.06.38:612][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
-[2018.10.21-14.06.40:824][  0]LogMoviePlayer: Initializing movie player
-[2018.10.21-14.06.41:398][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2018.10.21-14.06.41:409][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2018.10.21-14.06.42:779][  0]LogCollectionManager: Loaded 0 collections in 0.003800 seconds
-[2018.10.21-14.06.43:022][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Saved/Collections/' took 0.01s
-[2018.10.21-14.06.43:022][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Developers/Ferran/Collections/' took 0.01s
-[2018.10.21-14.06.43:022][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Collections/' took 0.01s
-[2018.10.21-14.06.43:022][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2018.10.21-14.06.43:022][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.10.21-14.06.44:396][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.21-14.06.44:641][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.21-14.06.46:259][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
-[2018.10.21-14.06.47:538][  0]SourceControl: Información El control de código fuente está desactivado
-[2018.10.21-14.06.47:538][  0]SourceControl: Información El control de código fuente está desactivado
-[2018.10.21-14.06.47:930][  0]SourceControl: Información El control de código fuente está desactivado
-[2018.10.21-14.06.50:279][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.21-14.06.54:274][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
-[2018.10.21-14.06.54:274][  0]LogUObjectAllocator: 8398840 out of 0 bytes used by permanent object pool.
-[2018.10.21-14.06.54:274][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.21-14.06.54:939][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
-[2018.10.21-14.06.54:950][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
-[2018.10.21-14.06.54:968][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
-[2018.10.21-14.06.54:990][  0]LogEngine: Initializing Engine...
-[2018.10.21-14.06.55:474][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2018.10.21-14.06.55:490][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
-[2018.10.21-14.06.55:595][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
-[2018.10.21-14.06.56:138][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
-[2018.10.21-14.06.56:208][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
-[2018.10.21-14.06.56:758][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
-[2018.10.21-14.06.57:287][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
-[2018.10.21-14.06.57:405][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
-[2018.10.21-14.06.57:517][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
-[2018.10.21-14.06.57:532][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
-[2018.10.21-14.06.57:551][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
-[2018.10.21-14.06.57:563][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
-[2018.10.21-14.06.57:576][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
-[2018.10.21-14.06.57:587][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
-[2018.10.21-14.06.57:595][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
-[2018.10.21-14.06.57:609][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
-[2018.10.21-14.06.57:678][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
-[2018.10.21-14.06.57:688][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
-[2018.10.21-14.06.57:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.21-14.06.57:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.21-14.06.58:016][  0]LogInit: XAudio2 using 'Altavoces (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.21-14.06.58:186][  0]LogInit: FAudioDevice initialized.
-[2018.10.21-14.06.58:221][  0]LogInit: Texture streaming: Enabled
-[2018.10.21-14.06.58:225][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2018.10.21-14.06.58:226][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
-[2018.10.21-14.06.58:226][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
-[2018.10.21-14.06.58:230][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
-[2018.10.21-14.06.58:249][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.10.21-14.06.58:254][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
-[2018.10.21-14.06.58:264][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
-[2018.10.21-14.06.58:274][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2018.10.21-14.06.58:289][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2018.10.21-14.06.58:301][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2018.10.21-14.06.58:311][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2018.10.21-14.06.58:321][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2018.10.21-14.06.58:329][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
-[2018.10.21-14.06.58:339][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
-[2018.10.21-14.06.58:348][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
-[2018.10.21-14.06.58:357][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
-[2018.10.21-14.06.58:366][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2018.10.21-14.06.58:366][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
-[2018.10.21-14.06.58:366][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
-[2018.10.21-14.06.58:370][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2018.10.21-14.06.58:381][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2018.10.21-14.06.58:393][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
-[2018.10.21-14.06.58:409][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
-[2018.10.21-14.06.58:417][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
-[2018.10.21-14.06.58:426][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
-[2018.10.21-14.06.58:438][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
-[2018.10.21-14.07.00:865][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
-[2018.10.21-14.07.00:865][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
-[2018.10.21-14.07.03:276][  0]LogInit:Display: Game Engine Initialized.
-[2018.10.21-14.07.04:709][  0]LogInit:Display: Starting Game.
-[2018.10.21-14.07.04:714][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
-[2018.10.21-14.07.04:715][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
-[2018.10.21-14.07.04:740][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.21-14.07.04:740][  0]LogMemory: Process Physical Memory: 1236.30 MB used, 1361.33 MB peak
-[2018.10.21-14.07.04:740][  0]LogMemory: Process Virtual Memory: 1396.37 MB used, 1435.34 MB peak
-[2018.10.21-14.07.04:740][  0]LogMemory: Physical Memory: 7186.69 MB used,  967.55 MB free, 8154.25 MB total
-[2018.10.21-14.07.04:740][  0]LogMemory: Virtual Memory: 6160.17 MB used,  967.55 MB free, 134217728.00 MB total
-[2018.10.21-14.07.04:740][  0]LogMemory: 
-[2018.10.21-14.07.04:740][  0]Allocator Stats for TBB: (not implemented)
-[2018.10.21-14.07.05:434][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2018.10.21-14.07.05:465][  0]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
-[2018.10.21-14.07.05:484][  0]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
-[2018.10.21-14.07.05:504][  0]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
-[2018.10.21-14.07.05:525][  0]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
-[2018.10.21-14.07.05:548][  0]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
-[2018.10.21-14.07.05:636][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2018.10.21-14.07.05:707][  0]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
-[2018.10.21-14.07.05:823][  0]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
-[2018.10.21-14.07.05:879][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
-[2018.10.21-14.07.05:928][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2018.10.21-14.07.06:000][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
-[2018.10.21-14.07.07:246][  0]LogAIModule: Creating AISystem for world TempleRun
-[2018.10.21-14.07.07:247][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.21-14.07.07:371][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-16.07.07
-[2018.10.21-14.07.07:372][  0]LogWorld: Bringing up level for play took: 0.001355
-[2018.10.21-14.07.07:455][  0]LogLoad: Took 2.739914 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
-[2018.10.21-14.07.09:142][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
-[2018.10.21-14.07.09:142][  0]LogLoad: (Engine Initialization) Total time: 173.90 seconds
-[2018.10.21-14.07.09:142][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.61 seconds
-[2018.10.21-14.07.09:142][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.10.21-14.07.09:163][  0]LogOcInput: OculusInput pre-init called
-[2018.10.21-14.07.09:163][  0]LogHMD: Starting GearVRController plugin
-[2018.10.21-14.07.22:784][785]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
-[2018.10.21-14.07.22:789][785]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
-[2018.10.21-14.07.22:852][785]LogMemory: Platform Memory Stats for Windows
-[2018.10.21-14.07.22:852][785]LogMemory: Process Physical Memory: 1435.13 MB used, 1435.31 MB peak
-[2018.10.21-14.07.22:852][785]LogMemory: Process Virtual Memory: 1657.95 MB used, 1658.48 MB peak
-[2018.10.21-14.07.22:852][785]LogMemory: Physical Memory: 7319.23 MB used,  835.02 MB free, 8154.25 MB total
-[2018.10.21-14.07.22:852][785]LogMemory: Virtual Memory: 6461.98 MB used,  835.02 MB free, 134217728.00 MB total
-[2018.10.21-14.07.22:852][785]LogMemory: 
-[2018.10.21-14.07.22:853][785]Allocator Stats for TBB: (not implemented)
-[2018.10.21-14.07.23:654][785]LogAIModule: Creating AISystem for world TempleRun
-[2018.10.21-14.07.23:655][785]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.21-14.07.23:657][785]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-16.07.23
-[2018.10.21-14.07.23:657][785]LogWorld: Bringing up level for play took: 0.001296
-[2018.10.21-14.07.23:698][785]LogLoad: Took 0.908942 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
-[2018.10.21-14.07.23:702][786]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076381 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
-[2018.10.21-14.07.26:195][933]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
-[2018.10.21-14.07.26:195][933]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
-[2018.10.21-14.07.26:247][933]LogMemory: Platform Memory Stats for Windows
-[2018.10.21-14.07.26:247][933]LogMemory: Process Physical Memory: 1452.84 MB used, 1456.27 MB peak
-[2018.10.21-14.07.26:247][933]LogMemory: Process Virtual Memory: 1685.08 MB used, 1687.63 MB peak
-[2018.10.21-14.07.26:247][933]LogMemory: Physical Memory: 7368.33 MB used,  785.91 MB free, 8154.25 MB total
-[2018.10.21-14.07.26:247][933]LogMemory: Virtual Memory: 6475.17 MB used,  785.91 MB free, 134217728.00 MB total
-[2018.10.21-14.07.26:247][933]LogMemory: 
-[2018.10.21-14.07.26:247][933]Allocator Stats for TBB: (not implemented)
-[2018.10.21-14.07.27:051][933]LogAIModule: Creating AISystem for world TempleRun
-[2018.10.21-14.07.27:051][933]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.21-14.07.27:053][933]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-16.07.27
-[2018.10.21-14.07.27:053][933]LogWorld: Bringing up level for play took: 0.001231
-[2018.10.21-14.07.27:093][933]LogLoad: Took 0.897216 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
-[2018.10.21-14.07.27:096][934]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.071874 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.40.14:975][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.21-16.40.14:975][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.21-16.40.14:981][  0]LogInit: Computer: DESKTOP-KR2EHTK
+[2018.10.21-16.40.14:981][  0]LogInit: User: Ferran
+[2018.10.21-16.40.14:981][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.21-16.40.14:981][  0]LogInit: High frequency timer resolution =3.349777 MHz
+[2018.10.21-16.40.14:981][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.10.21-16.40.14:981][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.40.14:981][  0]LogMemory: Process Physical Memory: 275.50 MB used, 275.50 MB peak
+[2018.10.21-16.40.14:981][  0]LogMemory: Process Virtual Memory: 266.66 MB used, 266.66 MB peak
+[2018.10.21-16.40.14:982][  0]LogMemory: Physical Memory: 5833.59 MB used,  2320.66 MB free, 8154.25 MB total
+[2018.10.21-16.40.14:982][  0]LogMemory: Virtual Memory: 4774.91 MB used,  2320.66 MB free, 134217728.00 MB total
+[2018.10.21-16.40.15:588][  0]LogInit: Using OS detected language (es-ES).
+[2018.10.21-16.40.15:588][  0]LogInit: Using OS detected locale (es-ES).
+[2018.10.21-16.40.15:596][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.10.21-16.40.16:592][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.21-16.40.16:617][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
+[2018.10.21-16.40.16:617][  0]LogD3D11RHI:       3052/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.10.21-16.40.16:620][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.21-16.40.16:620][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.21-16.40.16:620][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.21-16.40.16:625][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.21-16.40.16:625][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2018.10.21-16.40.16:625][  0]LogWindows: EnumDisplayDevices:
+[2018.10.21-16.40.16:625][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:0 D:1)
+[2018.10.21-16.40.16:626][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:1 D:1)
+[2018.10.21-16.40.16:627][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.10.21-16.40.16:628][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.10.21-16.40.16:629][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.10.21-16.40.16:629][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.10.21-16.40.16:630][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.21-16.40.16:630][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
+[2018.10.21-16.40.16:630][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.21-16.40.16:630][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.21-16.40.16:630][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.10.21-16.40.16:687][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.21-16.40.16:698][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.10.21-16.40.16:700][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/Project2/GITHUB DESKTOP/Bio/Bio/Intermediate/Shaders/WorkingDirectory/5408/).
+[2018.10.21-16.40.16:700][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ferran/AppData/Local/Temp/UnrealShaderWorkingDir/F417EB214DEE16DD209EAB9530631D79/'.
+[2018.10.21-16.40.16:700][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.10.21-16.40.18:479][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.21-16.40.18:796][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.21-16.40.19:114][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.21-16.40.19:431][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.10.21-16.40.19:431][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.10.21-16.40.23:204][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.10.21-16.40.23:281][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Ferran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.10.21-16.40.23:282][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ferran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.10.21-16.40.23:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project2/GITHUB DESKTOP/Bio/Bio/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.21-16.40.23:282][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.21-16.40.23:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project2/GITHUB DESKTOP/Bio/Bio/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.21-16.40.23:282][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.21-16.40.23:298][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.21-16.40.23:311][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ferran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.21-16.40.23:315][  0]LogMaterial: Verifying Global Shaders for PCD3D_ES2
+[2018.10.21-16.40.23:315][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.21-16.40.23:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.21-16.40.23:317][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.21-16.40.23:882][  0]LogAssetRegistry: FAssetRegistry took 0.0051 seconds to start up
+[2018.10.21-16.40.23:891][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.008141 seconds
+[2018.10.21-16.40.24:025][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.21-16.40.24:107][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2018.10.21-16.40.24:712][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.21-16.40.25:054][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.21-16.40.25:385][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.21-16.40.25:385][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.10.21-16.40.25:385][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.10.21-16.40.27:215][  0]LogNetVersion: Bio , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 343922727)
+[2018.10.21-16.40.27:781][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.10.21-16.40.34:824][  0]LogMoviePlayer: Initializing movie player
+[2018.10.21-16.40.36:418][  0]LogCollectionManager: Loaded 0 collections in 0.003150 seconds
+[2018.10.21-16.40.36:632][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Saved/Collections/' took 0.01s
+[2018.10.21-16.40.36:632][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Developers/Ferran/Collections/' took 0.01s
+[2018.10.21-16.40.36:632][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Collections/' took 0.01s
+[2018.10.21-16.40.36:632][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.10.21-16.40.36:632][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.10.21-16.40.37:828][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.21-16.40.38:047][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.21-16.40.40:453][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.10.21-16.40.40:453][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.10.21-16.40.40:783][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.10.21-16.40.42:665][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.21-16.40.45:734][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2018.10.21-16.40.45:734][  0]LogUObjectAllocator: 8398848 out of 0 bytes used by permanent object pool.
+[2018.10.21-16.40.45:734][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.21-16.40.46:296][  0]LogEngine: Initializing Engine...
+[2018.10.21-16.40.46:298][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.10.21-16.40.46:501][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.21-16.40.46:501][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.21-16.40.46:677][  0]LogInit: XAudio2 using 'Altavoces (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.21-16.40.46:715][  0]LogInit: FAudioDevice initialized.
+[2018.10.21-16.40.46:742][  0]LogInit: Texture streaming: Enabled
+[2018.10.21-16.40.46:745][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.10.21-16.40.46:746][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2018.10.21-16.40.46:746][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2018.10.21-16.40.46:763][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.10.21-16.40.46:808][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.10.21-16.40.46:808][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2018.10.21-16.40.46:808][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2018.10.21-16.40.48:510][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2018.10.21-16.40.48:510][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2018.10.21-16.40.50:199][  0]LogInit:Display: Game Engine Initialized.
+[2018.10.21-16.40.51:529][  0]LogInit:Display: Starting Game.
+[2018.10.21-16.40.51:529][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.40.51:529][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.40.51:547][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.40.51:547][  0]LogMemory: Process Physical Memory: 737.02 MB used, 845.60 MB peak
+[2018.10.21-16.40.51:547][  0]LogMemory: Process Virtual Memory: 898.97 MB used, 957.13 MB peak
+[2018.10.21-16.40.51:547][  0]LogMemory: Physical Memory: 6261.53 MB used,  1892.72 MB free, 8154.25 MB total
+[2018.10.21-16.40.51:547][  0]LogMemory: Virtual Memory: 5653.27 MB used,  1892.72 MB free, 134217728.00 MB total
+[2018.10.21-16.40.51:547][  0]LogMemory: 
+[2018.10.21-16.40.51:547][  0]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.40.53:105][  0]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.40.53:106][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.40.53:108][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.40.53
+[2018.10.21-16.40.53:108][  0]LogWorld: Bringing up level for play took: 0.001223
+[2018.10.21-16.40.53:136][  0]LogLoad: Took 1.606985 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.40.54:396][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.10.21-16.40.54:396][  0]LogLoad: (Engine Initialization) Total time: 45.69 seconds
+[2018.10.21-16.40.54:396][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.50 seconds
+[2018.10.21-16.40.54:396][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.10.21-16.40.54:413][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.10.21-16.40.54:414][  0]LogOcInput: OculusInput pre-init called
+[2018.10.21-16.40.54:414][  0]LogHMD: Starting GearVRController plugin
+[2018.10.21-16.40.57:462][189]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
+[2018.10.21-16.40.57:463][189]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.40.57:499][189]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.40.57:499][189]LogMemory: Process Physical Memory: 788.36 MB used, 845.60 MB peak
+[2018.10.21-16.40.57:499][189]LogMemory: Process Virtual Memory: 1042.48 MB used, 1045.82 MB peak
+[2018.10.21-16.40.57:499][189]LogMemory: Physical Memory: 6304.44 MB used,  1849.81 MB free, 8154.25 MB total
+[2018.10.21-16.40.57:499][189]LogMemory: Virtual Memory: 5866.58 MB used,  1849.81 MB free, 134217728.00 MB total
+[2018.10.21-16.40.57:499][189]LogMemory: 
+[2018.10.21-16.40.57:499][189]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.40.58:015][189]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.40.58:016][189]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.40.58:018][189]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.40.58
+[2018.10.21-16.40.58:018][189]LogWorld: Bringing up level for play took: 0.001089
+[2018.10.21-16.40.58:040][189]LogLoad: Took 0.576928 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.40.58:043][190]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085294 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.41.01:337][394]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
+[2018.10.21-16.41.01:337][394]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.41.01:371][394]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.41.01:371][394]LogMemory: Process Physical Memory: 802.24 MB used, 845.60 MB peak
+[2018.10.21-16.41.01:371][394]LogMemory: Process Virtual Memory: 1049.23 MB used, 1049.23 MB peak
+[2018.10.21-16.41.01:371][394]LogMemory: Physical Memory: 6313.06 MB used,  1841.18 MB free, 8154.25 MB total
+[2018.10.21-16.41.01:371][394]LogMemory: Virtual Memory: 5870.46 MB used,  1841.18 MB free, 134217728.00 MB total
+[2018.10.21-16.41.01:371][394]LogMemory: 
+[2018.10.21-16.41.01:371][394]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.41.01:936][394]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.41.01:936][394]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.41.01:938][394]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.41.01
+[2018.10.21-16.41.01:939][394]LogWorld: Bringing up level for play took: 0.001039
+[2018.10.21-16.41.01:963][394]LogLoad: Took 0.625002 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.41.01:965][395]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085294 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.41.04:604][557]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
+[2018.10.21-16.41.04:604][557]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.41.04:638][557]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.41.04:638][557]LogMemory: Process Physical Memory: 803.14 MB used, 845.60 MB peak
+[2018.10.21-16.41.04:638][557]LogMemory: Process Virtual Memory: 1054.58 MB used, 1054.79 MB peak
+[2018.10.21-16.41.04:638][557]LogMemory: Physical Memory: 6389.93 MB used,  1764.32 MB free, 8154.25 MB total
+[2018.10.21-16.41.04:638][557]LogMemory: Virtual Memory: 5866.46 MB used,  1764.32 MB free, 134217728.00 MB total
+[2018.10.21-16.41.04:638][557]LogMemory: 
+[2018.10.21-16.41.04:638][557]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.41.05:156][557]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.41.05:157][557]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.41.05:159][557]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.41.05
+[2018.10.21-16.41.05:159][557]LogWorld: Bringing up level for play took: 0.000962
+[2018.10.21-16.41.05:182][557]LogLoad: Took 0.578353 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.41.05:185][558]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085294 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.41.09:169][805]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
+[2018.10.21-16.41.09:169][805]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.41.09:209][805]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.41.09:209][805]LogMemory: Process Physical Memory: 809.15 MB used, 845.60 MB peak
+[2018.10.21-16.41.09:209][805]LogMemory: Process Virtual Memory: 1119.23 MB used, 1119.78 MB peak
+[2018.10.21-16.41.09:209][805]LogMemory: Physical Memory: 6369.03 MB used,  1785.22 MB free, 8154.25 MB total
+[2018.10.21-16.41.09:209][805]LogMemory: Virtual Memory: 5894.52 MB used,  1785.22 MB free, 134217728.00 MB total
+[2018.10.21-16.41.09:209][805]LogMemory: 
+[2018.10.21-16.41.09:209][805]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.41.09:719][805]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.41.09:719][805]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.41.09:721][805]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.41.09
+[2018.10.21-16.41.09:721][805]LogWorld: Bringing up level for play took: 0.000993
+[2018.10.21-16.41.09:747][805]LogLoad: Took 0.577688 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.41.09:750][806]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085294 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.41.34:672][351]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
+[2018.10.21-16.41.34:672][351]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.41.34:708][351]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.41.34:708][351]LogMemory: Process Physical Memory: 821.23 MB used, 845.60 MB peak
+[2018.10.21-16.41.34:708][351]LogMemory: Process Virtual Memory: 1114.02 MB used, 1154.55 MB peak
+[2018.10.21-16.41.34:708][351]LogMemory: Physical Memory: 6351.06 MB used,  1803.19 MB free, 8154.25 MB total
+[2018.10.21-16.41.34:708][351]LogMemory: Virtual Memory: 5923.89 MB used,  1803.19 MB free, 134217728.00 MB total
+[2018.10.21-16.41.34:708][351]LogMemory: 
+[2018.10.21-16.41.34:708][351]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.41.35:248][351]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.41.35:248][351]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.41.35:250][351]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.41.35
+[2018.10.21-16.41.35:250][351]LogWorld: Bringing up level for play took: 0.001037
+[2018.10.21-16.41.35:280][351]LogLoad: Took 0.607428 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.41.35:283][352]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085294 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.42.10:415][529]LogNet: Browse: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player?restart
+[2018.10.21-16.42.10:415][529]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun?Name=Player
+[2018.10.21-16.42.10:452][529]LogMemory: Platform Memory Stats for Windows
+[2018.10.21-16.42.10:452][529]LogMemory: Process Physical Memory: 823.01 MB used, 845.60 MB peak
+[2018.10.21-16.42.10:452][529]LogMemory: Process Virtual Memory: 1148.20 MB used, 1154.55 MB peak
+[2018.10.21-16.42.10:452][529]LogMemory: Physical Memory: 6363.42 MB used,  1790.83 MB free, 8154.25 MB total
+[2018.10.21-16.42.10:452][529]LogMemory: Virtual Memory: 5912.14 MB used,  1790.83 MB free, 134217728.00 MB total
+[2018.10.21-16.42.10:452][529]LogMemory: 
+[2018.10.21-16.42.10:452][529]Allocator Stats for TBB: (not implemented)
+[2018.10.21-16.42.10:966][529]LogAIModule: Creating AISystem for world TempleRun
+[2018.10.21-16.42.10:966][529]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.21-16.42.10:968][529]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun.TempleRun up for play (max tick rate 0) at 2018.10.21-18.42.10
+[2018.10.21-16.42.10:968][529]LogWorld: Bringing up level for play took: 0.000996
+[2018.10.21-16.42.10:988][529]LogLoad: Took 0.572819 seconds to LoadMap(/Temp/Autosaves/Game/Levels/TempleRun/UEDPCTempleRun)
+[2018.10.21-16.42.10:991][530]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085294 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.10.21-16.42.14:091][714]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.10.21-16.42.14:097][714]LogEngine: All Windows Closed
+[2018.10.21-16.42.14:097][714]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.10.21-16.42.14:364][715]LogExit: Preparing to exit.
+[2018.10.21-16.42.14:364][715]LogMoviePlayer: Shutting down movie player
+[2018.10.21-16.42.15:245][715]LogExit: Game engine shut down
+[2018.10.21-16.42.15:295][715]LogObj: Freed 0b from 0 cluster array pools.
+[2018.10.21-16.42.15:295][715]LogExit: Object subsystem successfully closed.
+[2018.10.21-16.42.15:310][715]LogD3D11RHI: Shutdown
+[2018.10.21-16.42.15:310][715]LogD3D11RHI: CleanupD3DDevice
+[2018.10.21-16.42.15:335][715]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module AutomationController (292)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module AIModule (288)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module Media (277)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module SessionServices (272)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module MovieScene (266)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module Niagara (260)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module PortalServices (254)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
+[2018.10.21-16.42.15:381][715]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2018.10.21-16.42.15:529][715]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2018.10.21-16.42.15:530][715]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2018.10.21-16.42.15:631][715]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2018.10.21-16.42.15:892][715]LogDirectoryWatcher: A directory notification for 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Collections/' was aborted.
+[2018.10.21-16.42.15:892][715]LogDirectoryWatcher: A directory notification for 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Developers/Ferran/Collections/' was aborted.
+[2018.10.21-16.42.15:892][715]LogDirectoryWatcher: A directory notification for 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Saved/Collections/' was aborted.
+[2018.10.21-16.42.15:892][715]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2018.10.21-16.42.15:893][715]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2018.10.21-16.42.15:893][715]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2018.10.21-16.42.15:893][715]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2018.10.21-16.42.15:893][715]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2018.10.21-16.42.15:894][715]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module Core (120)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2018.10.21-16.42.15:899][715]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2018.10.21-16.42.15:975][715]LogDerivedDataCache: Shutdown
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2018.10.21-16.42.15:975][715]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.21-16.42.15:976][715]LogOnline:Display: Unloading online subsystem: NULL
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.21-16.42.15:976][715]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.21-16.42.16:008][715]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.10.21-16.42.16:009][715]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.21-16.42.16:010][715]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.21-16.42.16:011][715]LogExit: Exiting.
+[2018.10.21-16.42.16:013][715]Log file closed, 10/21/18 18:42:16
