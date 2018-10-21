@@ -1,0 +1,104 @@
+--------- beginning of main
+
+10-21 19:15:38.768  2265  2265 W ChimeraUtils: Non Chimera context
+
+10-21 19:15:38.916 14601 14601 D TidaProvider: TidaProvider()
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:111)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:5595)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:774)
+
+10-21 19:15:38.953 14601 14601 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:652)
+
+10-21 19:15:39.044 14601 14601 W System  : ClassLoader referenced unknown path: /system/app/facebook-appmanager/lib/arm
+
+10-21 19:15:39.080 14601 14601 D ACRA    : ACRA init; reportURL: https://www.facebook.com/mobile/generic_android_crash_logs/659091980805095
+
+10-21 19:15:39.085 14601 14601 D ACRA    : ACRA is enabled for com.facebook.appmanager, intializing...
+
+10-21 19:15:39.125 14601 14601 V fb-UnpackingSoSource: locked dso store /data/user/0/com.facebook.appmanager/lib-main
+
+10-21 19:15:39.127 14601 14601 I fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.facebook.appmanager/lib-main
+
+10-21 19:15:39.127 14601 14601 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.facebook.appmanager/lib-main
+
+10-21 19:15:39.168 14601 14601 W com.facebook.appmanager:ck: Verify
+
+10-21 19:15:39.388   741   852 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+10-21 19:15:39.389   741   852 D ThermalEngine: sensor_monitor: case_therm Reading 37000 .
+
+10-21 19:15:39.389   741   852 I ThermalEngine: Sensor:case_therm:37000 mC
+
+10-21 19:15:39.390   741   852 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+10-21 19:15:39.390   741   852 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+10-21 19:15:39.390   741   852 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+10-21 19:15:39.859 14602 14602 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+
+10-21 19:15:39.874 14602 14602 D AndroidRuntime: CheckJNI is OFF
+
+10-21 19:15:39.954 14602 14602 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+
+10-21 19:15:40.034 14602 14602 I Radio-JNI: register_android_hardware_Radio DONE
+
+10-21 19:15:40.082 14602 14602 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+
+--------- beginning of system
+
+10-21 19:15:40.130  1341  1360 W com.android.server.am.ExtraActivityManagerService: Intent or aInfo is null!
+
+10-21 19:15:40.130 14602 14602 D AndroidRuntime: Shutting down VM
+
+10-21 19:15:40.316  1341  1889 W ActivityManager: cann't getContentProviderImpl: com.facebook.appmanager.oxygen.nekodirect.progress, cpi is null. 
+
+10-21 19:15:40.316 14601 14626 E ActivityThread: Failed to find provider info for com.facebook.appmanager.oxygen.nekodirect.progress
+
+10-21 19:15:40.390   741   852 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+10-21 19:15:40.391   741   852 D ThermalEngine: sensor_monitor: case_therm Reading 37000 .
+
+10-21 19:15:40.391   741   852 I ThermalEngine: Sensor:case_therm:37000 mC
+
+10-21 19:15:40.391   741   852 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+10-21 19:15:40.391   741   852 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+10-21 19:15:40.391   741   852 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+10-21 19:15:40.413   740   740 W cnss_diag: type=1400 audit(0.0:7085): avc: denied { search } for name="user" dev="tmpfs" ino=5308 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+10-21 19:15:40.413   740   740 W cnss_diag: type=1400 audit(0.0:7086): avc: denied { search } for name="user" dev="tmpfs" ino=5308 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+10-21 19:15:40.413   740   740 W cnss_diag: type=1400 audit(0.0:7087): avc: denied { search } for name="user" dev="tmpfs" ino=5308 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+10-21 19:15:40.413   740   740 W cnss_diag: type=1400 audit(0.0:7088): avc: denied { search } for name="user" dev="tmpfs" ino=5308 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+10-21 19:15:40.424   739   739 V WLAN_PSA: NL MSG, len[3866], NL type[0x1C] WNI type[0x5C00] len[527]
+
+10-21 19:15:40.424   739   739 V WLAN_PSA: NL MSG, PID: -1
+
+10-21 19:15:40.424   739   739 V WLAN_PSA: NL MSG, len[1555], NL type[0x1C] WNI type[0x5C00] len[64261]
+
+10-21 19:15:40.424   739   739 V WLAN_PSA: NL MSG, PID: -1
+
