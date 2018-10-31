@@ -150,25 +150,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/BasicShapes/BasicShapeMaterial",
-			"CookedPackageName": "/Engine/BasicShapes/BasicShapeMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "dd350cd07c331809590232685b066797",
-			"FullPackageHash": "ebe9acc6c916f5394807d6433b59dfd1",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/BasicShapes/Cone",
 			"CookedPackageName": "/Engine/BasicShapes/Cone",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -1028,6 +1009,42 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EditorMaterials/Cross",
+			"CookedPackageName": "/Engine/EditorMaterials/Cross",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/Cross.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "78c6306796b28fbe2e20bd83295d2017",
+			"FullPackageHash": "0ebce1e114ee158e3ca4ebd149d77ce5",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/Cross_Mat",
+			"CookedPackageName": "/Engine/EditorMaterials/Cross_Mat",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/Cross_Mat.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "5a3377c6c85068b7ad9b64c328515622",
+			"FullPackageHash": "cfd1fd51bb012858321cd33d9bfb8a21",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/EditorMaterials/Cross.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EditorMaterials/GizmoMaterial",
 			"CookedPackageName": "/Engine/EditorMaterials/GizmoMaterial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -1454,6 +1471,78 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EditorMaterials/PhAT_BoneSelectedMaterial",
+			"CookedPackageName": "/Engine/EditorMaterials/PhAT_BoneSelectedMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/PhAT_BoneSelectedMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "29ccc36da485d761508ed7292dca2729",
+			"FullPackageHash": "dd82aa6d27b42503e601eccf7eed96be",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/PhAT_ElemSelectedMaterial",
+			"CookedPackageName": "/Engine/EditorMaterials/PhAT_ElemSelectedMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/PhAT_ElemSelectedMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "5da856a5f42b8feb59bd35ae98ed8101",
+			"FullPackageHash": "82c8d3c0c5f6d1ead13c1c39b9c56d92",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/PhAT_NoCollisionMaterial",
+			"CookedPackageName": "/Engine/EditorMaterials/PhAT_NoCollisionMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/PhAT_NoCollisionMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "cf2de5b705ccb129154497f8d33f87dd",
+			"FullPackageHash": "51fb2f542c7ead69189b6c8e21871576",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/PhAT_UnselectedMaterial",
+			"CookedPackageName": "/Engine/EditorMaterials/PhAT_UnselectedMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/PhAT_UnselectedMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "e88af68684bc8980a735fb48e94b7267",
+			"FullPackageHash": "665c69272be3b5c301eacdd1d6ee80f6",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EditorMaterials/PreviewShadowIndicator",
 			"CookedPackageName": "/Engine/EditorMaterials/PreviewShadowIndicator",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -1585,6 +1674,42 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EditorMaterials/Tick",
+			"CookedPackageName": "/Engine/EditorMaterials/Tick",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/Tick.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "bd1cc7ddd58c2ea430396aec05aff96d",
+			"FullPackageHash": "4a8bc32df354431a4084ee021c51c75b",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/Tick_Mat",
+			"CookedPackageName": "/Engine/EditorMaterials/Tick_Mat",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/Tick_Mat.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "83da1ed169161be1c192c9fc650c22d3",
+			"FullPackageHash": "964f0dd49bf42687ad648e7756ee2b84",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/EditorMaterials/Tick.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EditorMaterials/TilingAADots",
 			"CookedPackageName": "/Engine/EditorMaterials/TilingAADots",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -1692,6 +1817,99 @@
 			"DependencyData": [
 				"*** SHADERSOURCE ***",
 				"../../../Engine/Content/EditorMaterials/WidgetGridVertexColorMaterial.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/WidgetMaterial",
+			"CookedPackageName": "/Engine/EditorMaterials/WidgetMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/WidgetMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9bcd2a789699346b939ea4651bc387a5",
+			"FullPackageHash": "3eb9db0921c4f179c6e3eef11825d3ca",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/WidgetMaterial_Current",
+			"CookedPackageName": "/Engine/EditorMaterials/WidgetMaterial_Current",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/WidgetMaterial_Current.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a16178480e9e1112bdd23e26b7a4ff37",
+			"FullPackageHash": "09a7610dd1127a3ec188d60fe3a1347e",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/WidgetMaterial_X",
+			"CookedPackageName": "/Engine/EditorMaterials/WidgetMaterial_X",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/WidgetMaterial_X.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "029036f93e06f61e1219508bcf70262b",
+			"FullPackageHash": "a2e00497d8a3e3f7e4bbc9186d83c67b",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/WidgetMaterial_Y",
+			"CookedPackageName": "/Engine/EditorMaterials/WidgetMaterial_Y",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/WidgetMaterial_Y.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "5fafd6501060b21cf095ca4ea293b46e",
+			"FullPackageHash": "8780ba9e1a0e1f44ff0a721fc6741fb1",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorMaterials/WidgetMaterial_Z",
+			"CookedPackageName": "/Engine/EditorMaterials/WidgetMaterial_Z",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorMaterials/WidgetMaterial_Z.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "41aae522c6a66522290281a616964bde",
+			"FullPackageHash": "c1d315ad8f9a22e1513de5adbe6bdf00",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
@@ -2236,6 +2454,23 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EditorResources/LightIcons/S_LightError",
+			"CookedPackageName": "/Engine/EditorResources/LightIcons/S_LightError",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "1154e3fcb99f817cc2062faa7f2774c2",
+			"FullPackageHash": "01ae7afe8ec60253dcf6c40c52d178de",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EditorResources/LightIcons/S_LightPoint",
 			"CookedPackageName": "/Engine/EditorResources/LightIcons/S_LightPoint",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -2440,6 +2675,57 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EditorResources/S_KBSJoint",
+			"CookedPackageName": "/Engine/EditorResources/S_KBSJoint",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/S_KBSJoint.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "6ceae5f9e67045eb22feb5876fa2fc36",
+			"FullPackageHash": "328d6971c0e0b267f35a27e24ef7f1ed",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorResources/S_KHinge",
+			"CookedPackageName": "/Engine/EditorResources/S_KHinge",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/S_KHinge.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "e20fdcd77a49d969f5d2f7547fac8370",
+			"FullPackageHash": "ee914f3b411f8366cd767ebc1a1e68f8",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorResources/S_KPrismatic",
+			"CookedPackageName": "/Engine/EditorResources/S_KPrismatic",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/S_KPrismatic.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "f264cbbf3738baae551731b04f9053d7",
+			"FullPackageHash": "4a8d43b9492e3ab6e4f7dfa942717d30",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EditorResources/S_LevelSequence",
 			"CookedPackageName": "/Engine/EditorResources/S_LevelSequence",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -2593,6 +2879,23 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EditorResources/S_Thruster",
+			"CookedPackageName": "/Engine/EditorResources/S_Thruster",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/S_Thruster.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "fbd79f6dff76058f4b049d2629be68b6",
+			"FullPackageHash": "7ef41808b320baf8a305b95e62880831",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EditorResources/S_Trigger",
 			"CookedPackageName": "/Engine/EditorResources/S_Trigger",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -2687,6 +2990,40 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "3ee86e1c2e2786899e2d159369fc35ed",
 			"FullPackageHash": "a8f754df329fc23872461b0fb1eecd02",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorResources/SmallFont",
+			"CookedPackageName": "/Engine/EditorResources/SmallFont",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/SmallFont.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "8183d52e63a5f332c3aa71f02f1a9cd0",
+			"FullPackageHash": "0a4e67d67ada17ddaf7b47c0b0c72857",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EditorResources/Spline/T_Loft_Spline",
+			"CookedPackageName": "/Engine/EditorResources/Spline/T_Loft_Spline",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "36ede93e5e27dd250998b763b096870f",
+			"FullPackageHash": "36ed30997955f36b9a29add7819a1440",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -3376,6 +3713,59 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EngineFonts/SmallFont",
+			"CookedPackageName": "/Engine/EngineFonts/SmallFont",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineFonts/SmallFont.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "ab38aa828d4a8879f25b47cde23d98bb",
+			"FullPackageHash": "520ff7d281a5291447d1c74e80696b44",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineFonts/TinyFont",
+			"CookedPackageName": "/Engine/EngineFonts/TinyFont",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineFonts/TinyFont.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "68de4da5678ed60c58cb80766e982357",
+			"FullPackageHash": "a7e8c32a0eff4b50bada2270fc3cfcb8",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineMaterials/BlinkingCaret",
+			"CookedPackageName": "/Engine/EngineMaterials/BlinkingCaret",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/BlinkingCaret.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "c9c0b7be6f304274abab59354fc373b1",
+			"FullPackageHash": "bdf588d2d12d746d5292cd795ed384b7",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EngineMaterials/DefaultBloomKernel",
 			"CookedPackageName": "/Engine/EngineMaterials/DefaultBloomKernel",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -3481,6 +3871,23 @@
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineMaterials/DefaultNormal",
+			"CookedPackageName": "/Engine/EngineMaterials/DefaultNormal",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/DefaultNormal.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "2d1ac313cfc2015cca756ba7b9eb2c2a",
+			"FullPackageHash": "1bbb45abcdc12785ae5593a66490711b",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -3613,6 +4020,23 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EngineMaterials/Grid_N",
+			"CookedPackageName": "/Engine/EngineMaterials/Grid_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/Grid_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "f87bfe98c362fa2490724ba7d7424625",
+			"FullPackageHash": "92beb4edcdd88d031aa9c73300cbb51a",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EngineMaterials/HighResolutionScreenshotMaskFunction",
 			"CookedPackageName": "/Engine/EngineMaterials/HighResolutionScreenshotMaskFunction",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -3708,6 +4132,23 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EngineMaterials/LandscapeHolePhysicalMaterial",
+			"CookedPackageName": "/Engine/EngineMaterials/LandscapeHolePhysicalMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/LandscapeHolePhysicalMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "fad1f161b1c7b9233d519f4545497d1c",
+			"FullPackageHash": "e77e00205e232d7c058c33d1c9a614f6",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EngineMaterials/M_InvalidLightmapSettings",
 			"CookedPackageName": "/Engine/EngineMaterials/M_InvalidLightmapSettings",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -3745,6 +4186,40 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EngineMaterials/PaperDiffuse",
+			"CookedPackageName": "/Engine/EngineMaterials/PaperDiffuse",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/PaperDiffuse.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "8d1652dee1c4340d3e07fe19e47ec1cd",
+			"FullPackageHash": "dd5fcabae17893d37414559dec60c10f",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineMaterials/PaperNormal",
+			"CookedPackageName": "/Engine/EngineMaterials/PaperNormal",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/PaperNormal.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "eda21f6c600e372a00ded8970abe62a1",
+			"FullPackageHash": "3661f65f966a4b9b47e626ccab0d114c",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EngineMaterials/PhAT_JointLimitMaterial",
 			"CookedPackageName": "/Engine/EngineMaterials/PhAT_JointLimitMaterial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -3759,6 +4234,23 @@
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineMaterials/PhysMat_Rubber",
+			"CookedPackageName": "/Engine/EngineMaterials/PhysMat_Rubber",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineMaterials/PhysMat_Rubber.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "02aa91c61cff7b4c6cd742570776b278",
+			"FullPackageHash": "001dc3365134ed84d91bf27c7d3b3644",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -4127,6 +4619,42 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "0f63bb6a6b7e67178bd11b38b55c2b2f",
 			"FullPackageHash": "1f7518701d9009ea86cfb1511198cc98",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineResources/M_StreamingPause",
+			"CookedPackageName": "/Engine/EngineResources/M_StreamingPause",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineResources/M_StreamingPause.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "308bdca2070fc1d071ae13446fb8eafc",
+			"FullPackageHash": "7bda34be928a1843b8a1fd655d74c14a",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineResources/StreamingPauseIcon",
+			"CookedPackageName": "/Engine/EngineResources/StreamingPauseIcon",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "32bfffd63793d646868cc28af3378bf1",
+			"FullPackageHash": "7251ec3e1de9620c741a67b098e40ffd",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -6073,6 +6601,46 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/VREditor/LaserPointer/HoverMaterial",
+			"CookedPackageName": "/Engine/VREditor/LaserPointer/HoverMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "09fe0216fe0beafb13d7208d0a45f0c4",
+			"FullPackageHash": "c85d265f01680621a590a20c4c547961",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/LaserPointer/HoverMesh",
+			"CookedPackageName": "/Engine/VREditor/LaserPointer/HoverMesh",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/LaserPointer/HoverMesh.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a6f3dae55878e272f9a1df6caa8c6d11",
+			"FullPackageHash": "8a2a2a7d53c22bc7d0a3c3bca55503a4",
+			"DependencyData": [
+				"../../../Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/VREditor/LaserPointer/LaserPointerMaterial",
 			"CookedPackageName": "/Engine/VREditor/LaserPointer/LaserPointerMaterial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6125,6 +6693,66 @@
 			"DependencyData": [
 				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset",
 				"../../../Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/LaserPointer/LaserPointerMesh_End",
+			"CookedPackageName": "/Engine/VREditor/LaserPointer/LaserPointerMesh_End",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "85623df6876de39068cb6e0a1a693172",
+			"FullPackageHash": "ce8bcd2b74548a761e6e945643393d3f",
+			"DependencyData": [
+				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/LaserPointer/LaserPointerMesh_Start",
+			"CookedPackageName": "/Engine/VREditor/LaserPointer/LaserPointerMesh_Start",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "34678ab4532ac33e4d742385bf2976c8",
+			"FullPackageHash": "dd778c0d71d8495290cb73c83a74bae6",
+			"DependencyData": [
+				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/LaserPointer/TranslucentHoverMaterial",
+			"CookedPackageName": "/Engine/VREditor/LaserPointer/TranslucentHoverMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "23027c0c2909cfc9ad7fb5ef40e9d7f9",
+			"FullPackageHash": "39d3719df0a133be1541dcbd230687c0",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset",
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
@@ -6229,6 +6857,92 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Click_on_Button_Cue",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Click_on_Button_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "0c78be73ff22cf90a99a797ff6f3f9ae",
+			"FullPackageHash": "2af13be1f9316885a6d1916b2bebc292",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Close",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Close",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b58ee4ab4942a42210764920e54463ef",
+			"FullPackageHash": "45e352743cd04059f3effd1d3bf80ee2",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Drop",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Drop",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9968876194197fd3739fc95625e0d286",
+			"FullPackageHash": "287fe95a1ba2fe3010e8b8ab848bcfd8",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Open",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Open",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "ef37d34049f82b1b1530515a715bbe6f",
+			"FullPackageHash": "4d6eaa27c1e7d13317919ecbde1980ae",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Pick_Up",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Dockable_Window_Pick_Up",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a40643e11d84216692d17906bc2d681b",
+			"FullPackageHash": "d26424a5ec7f20943f5dce665507adf4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser",
 			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6238,6 +6952,23 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "c36ce4388ecd2c8a73c28646a504e58f",
 			"FullPackageHash": "27ffedeb44952ab26b5fd9d3d7f38da6",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Floating_UI_Open-001",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Floating_UI_Open-001",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "4025b52e41df78e7fd189c94a0fbe077",
+			"FullPackageHash": "11044ae0e1307f74121d140072ad7e25",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -6314,6 +7045,23 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Radial_Menu_FadeOut",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Radial_Menu_FadeOut",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "2911522e219deca0546c9f5e76c9e36c",
+			"FullPackageHash": "f1ba1db4c6b236ec2a60329e40a9e03d",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Scaling_Down",
 			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Scaling_Down",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6365,6 +7113,23 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/VREditor/Sounds/UI/Teleport_Mode_Entered",
+			"CookedPackageName": "/Engine/VREditor/Sounds/UI/Teleport_Mode_Entered",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "c2eda7aed70931cdd6785a7561817e0d",
+			"FullPackageHash": "a296f671726ed93805cb2e7602391283",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/VREditor/Sounds/VR_teleport",
 			"CookedPackageName": "/Engine/VREditor/Sounds/VR_teleport",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -6393,6 +7158,64 @@
 			"FullPackageHash": "4a1049b09ccebc7212ee1f3e65371e0f",
 			"DependencyData": [
 				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Teleport/TeleportDirectionMaterial",
+			"CookedPackageName": "/Engine/VREditor/Teleport/TeleportDirectionMaterial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b6c732c7fd76e50b3ff71ff784465606",
+			"FullPackageHash": "675664ff3b7dcec9beaee26d3e1db3d3",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Teleport/TeleportDirectionMaterial_Inst",
+			"CookedPackageName": "/Engine/VREditor/Teleport/TeleportDirectionMaterial_Inst",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "e0888767ee0efd748bc6c58e35d5285e",
+			"FullPackageHash": "bf8a8b8f924927da1ab5d95f021abfe5",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/VREditor/Teleport/TeleportDirectionMesh",
+			"CookedPackageName": "/Engine/VREditor/Teleport/TeleportDirectionMesh",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "76bc8a09119ba13ac6554eb0dc146266",
+			"FullPackageHash": "be87f564bd2a8b9683edca729b2cc3e9",
+			"DependencyData": [
+				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset",
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/UnrealEd"
@@ -7224,8 +8047,8 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Levels/TempleRun/TempleRun.umap",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "9d6262ea97ddc3027efd3accadbc7c8b",
-			"FullPackageHash": "162f9af20eb0ad8512f14d219bb1f5e0",
+			"DependentPackageHash": "71cd7ec25f865a7beca7bb98e716df9e",
+			"FullPackageHash": "c558140258dd16561ea6ca1aa6c47989",
 			"DependencyData": [
 				"*** SHADERSOURCE ***",
 				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset",
@@ -7237,6 +8060,7 @@
 				"/Script/Foliage",
 				"/Script/UnrealEd",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Levels/TempleRun/TempleRun_BuiltData.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset"
 			],
 			"FileSize": "-1",
@@ -7250,8 +8074,8 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Levels/TempleRun/TempleRun_BuiltData.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "58eecf0b0d1b098fcddd237ce182963e",
-			"FullPackageHash": "7c5836c74534275891f13b90d3449fda",
+			"DependentPackageHash": "20fc438de7a7a948ecad03a73e2d8ad6",
+			"FullPackageHash": "5ed9a8deddef37a7e623afffb00b83e3",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -7618,13 +8442,12 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "cbd0f0a1ef205cd784f5619c8a6dd8d6",
-			"FullPackageHash": "1cdf843b703f21f9e6f024d5c563fc6c",
+			"DependentPackageHash": "3b415d2237224e95dbe04d8263bc34c7",
+			"FullPackageHash": "1bc9dc4c4309a7d8530925f6ae611e10",
 			"DependencyData": [
 				"/Script/AudioEditor",
 				"/Script/CoreUObject",
 				"/Script/Engine",
-				"/Script/UnrealEd",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
 			],
 			"FileSize": "-1",
@@ -7845,27 +8668,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/MobileStarterContent/Particles/Materials/M_Fire_SubUV",
-			"CookedPackageName": "/Game/MobileStarterContent/Particles/Materials/M_Fire_SubUV",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "409c268ab25dbc5a77db97595d16d672",
-			"FullPackageHash": "cc13aee3340871a0b9e1eab32dcfa109",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset",
-				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/MobileStarterContent/Particles/Materials/m_flare_01",
 			"CookedPackageName": "/Game/MobileStarterContent/Particles/Materials/m_flare_01",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -7943,27 +8745,6 @@
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/MobileStarterContent/Props/Materials/M_Door",
-			"CookedPackageName": "/Game/MobileStarterContent/Props/Materials/M_Door",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Props/Materials/M_Door.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "900e70a0718ae2795f3bc9aca83f87b4",
-			"FullPackageHash": "a383d9a779bfe4fb328c06083500d215",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Door_M.uasset",
-				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Door_N.uasset"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -8058,40 +8839,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/MobileStarterContent/Textures/T_Door_M",
-			"CookedPackageName": "/Game/MobileStarterContent/Textures/T_Door_M",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Door_M.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "3a3d50d953a54b18bbba2b4950d0a7c2",
-			"FullPackageHash": "f10c8f4728cf709cfce23d862a49f50f",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/MobileStarterContent/Textures/T_Door_N",
-			"CookedPackageName": "/Game/MobileStarterContent/Textures/T_Door_N",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Door_N.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "50975c184359f6bcd13705ced62c4d8b",
-			"FullPackageHash": "31bec53d6f247aff8bd1b9352810bf52",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/MobileStarterContent/Textures/T_Explosion_SubUV",
 			"CookedPackageName": "/Game/MobileStarterContent/Textures/T_Explosion_SubUV",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -8101,40 +8848,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "80c80dacf6399a2f58b22e3425f0d9b9",
 			"FullPackageHash": "07d2148841ec9f63eb7cae8aeaf37520",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/MobileStarterContent/Textures/T_Fire_SubUV",
-			"CookedPackageName": "/Game/MobileStarterContent/Textures/T_Fire_SubUV",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "96c3be6a457622e399f3be0227ab3c77",
-			"FullPackageHash": "a160382e88d7e0401b2b0ff060253f78",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/MobileStarterContent/Textures/T_Fire_Tiled_D",
-			"CookedPackageName": "/Game/MobileStarterContent/Textures/T_Fire_Tiled_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "db943f97b7f5f229c7971d14b8e6526e",
-			"FullPackageHash": "57750be5c2b7711449c89d5c16a050e5",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -8286,7 +8999,7 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/Blocker.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "1cae9b60033ab895f30693e8b0afc3dd",
+			"DependentPackageHash": "270bdc9840ca407c2a9b169a7d655da5",
 			"FullPackageHash": "db70a092a7e032710f76718eedbf7ade",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
@@ -8326,8 +9039,8 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "faebd2fe966931d9892219a1bdf4c47a",
-			"FullPackageHash": "2ff1001d6a4c9c6f97591680dafbe833",
+			"DependentPackageHash": "dc77c20d3c755f9f204a85ddf8cd6f6e",
+			"FullPackageHash": "b6ad3c5a2914610d477a36df818f5f05",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/BasicShapes/Cube.uasset",
@@ -8353,8 +9066,19 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_Jump.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "",
-			"FullPackageHash": "",
+			"DependentPackageHash": "930203351a69b8590423716adc888a78",
+			"FullPackageHash": "e78c33cae9f4436e7833c079ddf898d9",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/BasicShapes/Cube.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset"
+			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8366,8 +9090,19 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_LeftCorner.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "",
-			"FullPackageHash": "",
+			"DependentPackageHash": "99cea3137299a63e1d701ee306ac014f",
+			"FullPackageHash": "a707723a5b4bae26a45af256f39d0851",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/BasicShapes/Cube.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset"
+			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8379,8 +9114,19 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_RampDown.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "",
-			"FullPackageHash": "",
+			"DependentPackageHash": "f8561ce22baa5b4929f98b498910606d",
+			"FullPackageHash": "a854a58801c7291ad79e612f89485bf3",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/BasicShapes/Cube.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset"
+			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8392,8 +9138,19 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_RampUp.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "",
-			"FullPackageHash": "",
+			"DependentPackageHash": "59cf8732091ddc701dd95086e2d321d7",
+			"FullPackageHash": "1d676be2c1e508e5f3f5cabfef749831",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/BasicShapes/Cube.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset"
+			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8405,8 +9162,20 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_RightCorner.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "",
-			"FullPackageHash": "",
+			"DependentPackageHash": "253fad5e32c0670de682eda3a43aa588",
+			"FullPackageHash": "23a20c6a3d2a14920b8d80f6a42c0159",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/BasicShapes/Cube.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset"
+			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8456,8 +9225,8 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/Item.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "74f9dc33d76c5af37047eb24224e9933",
-			"FullPackageHash": "704f1d177ec3a7f5028edbb1b8095ad1",
+			"DependentPackageHash": "1265877717408386ced37a0515f23cfd",
+			"FullPackageHash": "cd0d674630fa204128a8618d28061a0a",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
@@ -8954,44 +9723,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Temple_RunLVL/ThirdPerson/Meshes/Ramp_StaticMesh",
-			"CookedPackageName": "/Game/Temple_RunLVL/ThirdPerson/Meshes/Ramp_StaticMesh",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPerson/Meshes/Ramp_StaticMesh.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "ed8e5358661d4252dbb5506ac975197f",
-			"FullPackageHash": "8eb33bde78fdb74767e13d7566444be4",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPerson/Meshes/RampMaterial.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/Temple_RunLVL/ThirdPerson/Meshes/RampMaterial",
-			"CookedPackageName": "/Game/Temple_RunLVL/ThirdPerson/Meshes/RampMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPerson/Meshes/RampMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "748a8a2d957e58a1129b18d7587a8d23",
-			"FullPackageHash": "41a0c5638e15b85c992a16c71a7b3c44",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter",
 			"CookedPackageName": "/Game/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -8999,8 +9730,8 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "fcb3c9e10af495efd23022430f8eca33",
-			"FullPackageHash": "f2ae1125f5ceb87c2b461627ce482d9b",
+			"DependentPackageHash": "e1b79e4c1fa68a04a37fcc607455286f",
+			"FullPackageHash": "320f3d21736153b6eabb198fe20737db",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset",
@@ -9027,8 +9758,8 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "8cd02cd9417825c6025a37b788e83809",
-			"FullPackageHash": "0058a35bf8326264d98ff84fc5089a77",
+			"DependentPackageHash": "bb69c7977bc7f7a2fd2eca53dc4b2d0b",
+			"FullPackageHash": "8de29754072b59c3b45999e4ec680299",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset",
@@ -9039,6 +9770,11 @@
 				"/Script/UMGEditor",
 				"/Script/UnrealEd",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_Jump.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_LeftCorner.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_RampDown.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_RampUp.uasset",
+				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/FloorTile_RightCorner.uasset",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset",
 				"E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/UMG/RunHUD.uasset"
 			],
@@ -9053,7 +9789,7 @@
 			"ResolvedRelativePath": "E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Temple_RunLVL/UMG/RunHUD.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "b0d45e2a28f11e9a9e8ba62b5bd634c9",
+			"DependentPackageHash": "a3987fa288381bfce569dd7e1e3e87e4",
 			"FullPackageHash": "5e1b31eea7c7d39e3b64c792befd0ed8",
 			"DependencyData": [
 				"/Script/BlueprintGraph",
@@ -9219,83 +9955,69 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"SourcePackageName": "/Engine/VREditor/VREditorAssetContainerData",
+			"CookedPackageName": "/Engine/VREditor/VREditorAssetContainerData",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/VREditor/VREditorAssetContainerData.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "c4f8afb32a5ee8190303f118151e19c8",
-			"FullPackageHash": "de22f5853053d0b4dff1d74087561a70",
+			"DependentPackageHash": "826a120a27e3b1796bb521b55b98848b",
+			"FullPackageHash": "11f1a31d6c98f4228fca93bcac17f7e1",
 			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
-				"/Script/BlueprintGraph",
+				"../../../Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset",
+				"../../../Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset",
+				"../../../Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset",
+				"../../../Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset",
+				"../../../Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset",
+				"../../../Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset",
+				"../../../Engine/Content/VREditor/Fonts/VRTextMaterial.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/HoverMesh.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset",
+				"../../../Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset",
+				"../../../Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset",
+				"../../../Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset",
+				"../../../Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset",
+				"../../../Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset",
+				"../../../Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset",
+				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset",
+				"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset",
+				"../../../Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset",
+				"../../../Engine/Content/VREditor/UI/SM_Radial_Disk.uasset",
+				"../../../Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset",
+				"../../../Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset",
+				"../../../Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset",
+				"../../../Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset",
 				"/Script/CoreUObject",
 				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
+				"/Script/VREditor"
 			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "a10a9b4275d12f23bcfb18e3326da132",
-			"FullPackageHash": "efc36e8f0805455704a6db4bc92b1826",
+			"DependentPackageHash": "0cbc9891fd5a5e5d586816e4840960e9",
+			"FullPackageHash": "0f61f06c354a86498da2eb1725c79b42",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/MaterialEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/MaterialEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "63e23f0e8abb26092d38adfebf48b140",
-			"FullPackageHash": "8ba6fff40081d783a9544242fc52ca6c",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "de02970fd34b1d12322895ec314eef0b",
-			"FullPackageHash": "f2cbe38792647aa3783ee97e51b60a14",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9340,6 +10062,27 @@
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "4dd2bb316dfb766167397ea3f80b86a7",
+			"FullPackageHash": "1842b9bae152f34456abff13adabe167",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9458,6 +10201,49 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/MaterialEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/MaterialEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "63e23f0e8abb26092d38adfebf48b140",
+			"FullPackageHash": "8ba6fff40081d783a9544242fc52ca6c",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "a10a9b4275d12f23bcfb18e3326da132",
+			"FullPackageHash": "efc36e8f0805455704a6db4bc92b1826",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/Tutorial/Paper2D/FlipbookEditorTutorial",
 			"CookedPackageName": "/Engine/Tutorial/Paper2D/FlipbookEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -9501,27 +10287,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "0cbc9891fd5a5e5d586816e4840960e9",
-			"FullPackageHash": "0f61f06c354a86498da2eb1725c79b42",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
 			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -9534,28 +10299,6 @@
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "23e648c83b38fd208bf6bc5c575e91fc",
-			"FullPackageHash": "6f85079326fac7b859703df804a51858",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9588,17 +10331,62 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "4dd2bb316dfb766167397ea3f80b86a7",
-			"FullPackageHash": "1842b9bae152f34456abff13adabe167",
+			"DependentPackageHash": "c4f8afb32a5ee8190303f118151e19c8",
+			"FullPackageHash": "de22f5853053d0b4dff1d74087561a70",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "23e648c83b38fd208bf6bc5c575e91fc",
+			"FullPackageHash": "6f85079326fac7b859703df804a51858",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "de02970fd34b1d12322895ec314eef0b",
+			"FullPackageHash": "f2cbe38792647aa3783ee97e51b60a14",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
