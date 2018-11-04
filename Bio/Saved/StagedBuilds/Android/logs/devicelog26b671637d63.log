@@ -1,0 +1,1056 @@
+--------- beginning of main
+
+11-04 18:00:34.159   863   980 W XTCC-5.1.0.9: [CS-RIL-LISTENER] timerCallback fired for ril update registering, re-register
+
+11-04 18:00:34.297  1964 15494 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+
+11-04 18:00:34.357   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:34.359   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:34.359   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:34.359   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:34.359   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:34.359   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:34.433  1964 15494 I Icing   : Indexing done com.google.android.gms-apps
+
+11-04 18:00:34.479   737   737 W cnss_diag: type=1400 audit(0.0:4960): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:34.479   737   737 W cnss_diag: type=1400 audit(0.0:4961): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:34.479   737   737 W cnss_diag: type=1400 audit(0.0:4962): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:34.479   737   737 W cnss_diag: type=1400 audit(0.0:4963): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:34.489   736   736 V WLAN_PSA: NL MSG, len[3866], NL type[0x1C] WNI type[0x5C00] len[527]
+
+11-04 18:00:34.489   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:34.489   736   736 V WLAN_PSA: NL MSG, len[921], NL type[0x1C] WNI type[0x5C00] len[33027]
+
+11-04 18:00:34.489   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:34.543  2093  2093 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+11-04 18:00:34.559  2093  2093 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=229376 outq=0 send_len=48
+
+11-04 18:00:34.855 15505 15505 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+
+11-04 18:00:34.862 15505 15505 D AndroidRuntime: CheckJNI is OFF
+
+11-04 18:00:34.912 15505 15505 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+
+11-04 18:00:34.985 15505 15505 I Radio-JNI: register_android_hardware_Radio DONE
+
+11-04 18:00:35.028 15505 15505 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+
+--------- beginning of system
+
+11-04 18:00:35.074  1322  2541 E WtComponentManager: error start info, pass
+
+11-04 18:00:35.080  3331  3336 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+
+11-04 18:00:35.082  3331  3336 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+
+11-04 18:00:35.090  1322  2541 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@a2299b
+
+11-04 18:00:35.090  1322  2541 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+
+11-04 18:00:35.091  2672  3133 D ScreenElementRoot: pause
+
+11-04 18:00:35.099 15505 15505 D AndroidRuntime: Shutting down VM
+
+11-04 18:00:35.099  1322  2623 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@e64df50
+
+11-04 18:00:35.100  1322  1443 I SettingsInjector: notify first launch
+
+11-04 18:00:35.114  1322  2623 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@4dda549
+
+11-04 18:00:35.116  2672  3133 I NotifierManager: onUnregister: miui.maml.NotifierManager$MultiBroadcastNotifier@4e6a6ec
+
+11-04 18:00:35.116  2672  3133 I RenderThread: RenderThread paused, waiting for signal
+
+11-04 18:00:35.119 15517 15517 I art     : Late-enabling -Xcheck:jni
+
+11-04 18:00:35.157 15398 15398 D AppActiveReceiver: receive app active broadcast for: com.BioGAME, install from: null
+
+11-04 18:00:35.163 15517 15517 D TidaProvider: TidaProvider()
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:111)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:5595)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:774)
+
+11-04 18:00:35.179 15517 15517 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:652)
+
+11-04 18:00:35.203  1322  2610 I Timeline: Timeline: App_transition_ready time:2302669
+
+11-04 18:00:35.203  1756  1756 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mManagedProfileInQuietMode: false mKeyguardVisible: true mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+11-04 18:00:35.240   722  1601 D DnsProxyBlocker: remove uid(10132) for Firewall
+
+11-04 18:00:35.284 15517 15517 I Timeline: Timeline: Activity_launch_request time:2302751
+
+11-04 18:00:35.294  3331  3336 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+
+11-04 18:00:35.294  1322  2429 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+
+11-04 18:00:35.305  1322  1779 I Timeline: Timeline: App_transition_ready time:2302771
+
+11-04 18:00:35.305  1756  1756 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mManagedProfileInQuietMode: false mKeyguardVisible: true mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+11-04 18:00:35.329 15517 15517 D AccessibilityManager: current package=com.BioGAME, accessibility manager mIsFinalEnabled=false, mOptimizeEnabled=false, mIsUiAutomationEnabled=false, mIsInterestedPackage=false
+
+11-04 18:00:35.359   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:35.360   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:35.360   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:35.360   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:35.360   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:35.361   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:35.410   736   736 V WLAN_PSA: NL MSG, len[3866], NL type[0x1C] WNI type[0x5C00] len[527]
+
+11-04 18:00:35.410   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:35.410   736   736 V WLAN_PSA: NL MSG, len[584], NL type[0x1C] WNI type[0x5C00] len[12290]
+
+11-04 18:00:35.410   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:35.399   737   737 W cnss_diag: type=1400 audit(0.0:4964): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:35.399   737   737 W cnss_diag: type=1400 audit(0.0:4965): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:35.399   737   737 W cnss_diag: type=1400 audit(0.0:4966): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:35.399   737   737 W cnss_diag: type=1400 audit(0.0:4967): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:35.531  1756  1756 D PhoneStatusBar: disable: 0x00000000 -> 0x00000100 (diff: 0x00000100)
+
+11-04 18:00:35.531  1756  1756 D PhoneStatusBar: disable: < expand icons alerts ticker system_info back home recent clock full HIDE* keyguard none float >
+
+11-04 18:00:35.531  1756  1756 D PhoneStatusBar: showStatusBar isshow=false;delay=false
+
+11-04 18:00:35.628  1322  1405 I Timeline: Timeline: App_transition_stopped time:2303095
+
+11-04 18:00:35.680 15517 15517 D UE4     : In the JNI_OnLoad function
+
+11-04 18:00:35.680 15517 15517 D UE4     : [JNI] - Failed to determine if app purchasing is enabled!
+
+11-04 18:00:35.684 15517 15517 D UE4     : Path found as '/storage/emulated/0'
+
+11-04 18:00:35.684 15517 15517 D UE4     : Font Path found as '/system/fonts/'
+
+11-04 18:00:35.684 15517 15517 D UE4     : In the JNI_OnLoad function 5
+
+11-04 18:00:35.701 15517 15544 D UE4     : Entering native app glue main function
+
+11-04 18:00:35.701 15517 15544 D UE4     : Created event thread
+
+11-04 18:00:35.702 15517 15545 D UE4     : Entering event processing thread engine entry point
+
+11-04 18:00:35.702 15517 15544 D UE4     : Entered AndroidMain()
+
+11-04 18:00:35.702 15517 15545 D UE4     : Prepared looper for event thread
+
+11-04 18:00:35.702 15517 15545 D UE4     : Passed callback initialization
+
+11-04 18:00:35.707 15517 15544 D UE4     : Controller interface supported
+
+11-04 18:00:35.712 15517 15545 D UE4     : Passed sensor initialization
+
+11-04 18:00:35.723 15517 15546 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+
+11-04 18:00:35.733 15517 15517 D PermissionFragment: Creating PlayGamesFragment
+
+11-04 18:00:35.735 15517 15517 I Timeline: Timeline: Activity_launch_request time:2303202
+
+11-04 18:00:35.742  1322  2541 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+
+11-04 18:00:35.754 15517 15517 D UE4     : Found DepthBufferPreference = 0
+
+11-04 18:00:35.754 15517 15517 D UE4     : Found bPackageDataInsideApk = 0
+
+11-04 18:00:35.754 15517 15517 D UE4     : Found ProjectName = Bio
+
+11-04 18:00:35.755 15517 15517 D UE4     : Found bHasOBBFiles = 0
+
+11-04 18:00:35.755 15517 15517 D UE4     : Found bVerifyOBBOnStartUp = false
+
+11-04 18:00:35.755 15517 15517 D UE4     : UI hiding set to false
+
+11-04 18:00:35.755 15517 15517 D UE4     : BuildConfiguration set to Development
+
+11-04 18:00:35.755 15517 15517 D UE4     : UseExternalFilesDir set to false
+
+11-04 18:00:35.755 15517 15517 D UE4     : No GearVR mode detected.
+
+11-04 18:00:35.755 15517 15517 D UE4     : APK path: /data/app/com.BioGAME-1/base.apk
+
+11-04 18:00:35.755 15517 15517 D UE4     : OBB in APK: false
+
+11-04 18:00:35.756 15517 15517 D UE4     : ExternalFilePath found as '/storage/emulated/0/Android/data/com.BioGAME/files'
+
+11-04 18:00:35.756 15517 15517 D UE4     : App is running in Portrait
+
+11-04 18:00:35.756 15517 15517 D UE4     : Android version is 6.0.1
+
+11-04 18:00:35.756 15517 15517 D UE4     : Android manufacturer is Xiaomi
+
+11-04 18:00:35.756 15517 15517 D UE4     : Android model is Redmi 3S
+
+11-04 18:00:35.756 15517 15517 D UE4     : OS language is set to es_ES
+
+11-04 18:00:35.809 15517 15517 W PopupManager: You have not specified a View to use as content view for popups. Falling back to the Activity content view. Note that this may not work as expected in multi-screen environments
+
+11-04 18:00:35.814 15517 15517 D UE4     : ==============> GameActive.onCreate complete!
+
+11-04 18:00:35.815 15517 15545 D UE4     : LogAndroidEvents: EnqueueAppEvent : 9, 0, tid = 15545
+
+11-04 18:00:35.815 15517 15517 D UE4     : Creating console command broadcast listener
+
+11-04 18:00:35.817 15517 15517 D UE4     : ==================================> Inside onStart function in GameActivity
+
+11-04 18:00:35.819 15517 15545 D UE4     : Case APP_CMD_RESUME
+
+11-04 18:00:35.819 15517 15517 D UE4     : App is running in Portrait
+
+11-04 18:00:35.819 15517 15545 D UE4     : LogAndroidEvents: EnqueueAppEvent : 7, 0, tid = 15545
+
+11-04 18:00:35.820 15517 15517 D UE4     : ==============> Resuming main init
+
+11-04 18:00:35.830 15517 15544 D UE4     : Final commandline: ../../../Bio/Bio.uproject  /Game/Levels/Menu/MENU -Messaging -SessionId=04269946459F33FE79A4D39F7A9807D5 -SessionOwner="Ferran" -SessionName="Launch On Device" -iterative
+
+11-04 18:00:35.830 15517 15544 D UE4     : Created sync event
+
+11-04 18:00:35.840 15517 15517 D UE4     : ==============> GameActive.onResume complete!
+
+11-04 18:00:35.900 15517 15546 I Adreno  : QUALCOMM build                   : 10c9f68, I74772a33ad
+
+11-04 18:00:35.900 15517 15546 I Adreno  : Build Date                       : 02/07/17
+
+11-04 18:00:35.900 15517 15546 I Adreno  : OpenGL ES Shader Compiler Version: XE031.07.00.01
+
+11-04 18:00:35.900 15517 15546 I Adreno  : Local Branch                     : 
+
+11-04 18:00:35.900 15517 15546 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.5.1_RB1.06.00.01.192.038
+
+11-04 18:00:35.900 15517 15546 I Adreno  : Remote Branch                    : NONE
+
+11-04 18:00:35.900 15517 15546 I Adreno  : Reconstruct Branch               : NOTHING
+
+11-04 18:00:35.986 15517 15546 I OpenGLRenderer: Initialized EGL, version 1.4
+
+11-04 18:00:36.025   736   736 V WLAN_PSA: NL MSG, len[1861], NL type[0x1C] WNI type[0x5C00] len[11527]
+
+11-04 18:00:36.026   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:36.019   737   737 W cnss_diag: type=1400 audit(0.0:4968): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:36.032 15517 15545 D UE4     : Case APP_CMD_INIT_WINDOW
+
+11-04 18:00:36.033 15517 15545 D UE4     : LogAndroidEvents: EnqueueAppEvent : 0, 2874620216, tid = 15545
+
+11-04 18:00:36.019   737   737 W cnss_diag: type=1400 audit(0.0:4969): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:36.038  1322  1338 W InputMethodManagerService: Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@d3e1b62 (uid=10132 pid=15517)
+
+11-04 18:00:36.040 15517 15545 D UE4     : Case APP_CMD_PAUSE
+
+11-04 18:00:36.040 15517 15517 D UE4     : ==============> GameActive.onPause complete!
+
+11-04 18:00:36.040 15517 15545 D UE4     : LogAndroidEvents: EnqueueAppEvent : 6, 0, tid = 15545
+
+11-04 18:00:36.052  1322  1863 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@f95b4f3
+
+11-04 18:00:36.120 15554 15554 D TidaProvider: TidaProvider()
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:111)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:5595)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:774)
+
+11-04 18:00:36.131 15554 15554 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:652)
+
+11-04 18:00:36.152  1322  2554 I Timeline: Timeline: App_transition_ready time:2303618
+
+11-04 18:00:36.152  1322  2554 I Timeline: Timeline: App_transition_stopped time:2303619
+
+11-04 18:00:36.152  1756  1756 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mManagedProfileInQuietMode: false mKeyguardVisible: true mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+11-04 18:00:36.193 15554 15554 W System  : ClassLoader referenced unknown path: /system/priv-app/PackageInstaller/lib/arm64
+
+11-04 18:00:36.256 15398 15559 E SystemUpdate-ConnectionRSA: get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+
+11-04 18:00:36.338 15554 15554 D AccessibilityManager: current package=com.google.android.packageinstaller, accessibility manager mIsFinalEnabled=false, mOptimizeEnabled=false, mIsUiAutomationEnabled=false, mIsInterestedPackage=false
+
+11-04 18:00:36.361   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:36.362   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:36.362   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:36.362   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:36.362   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:36.362   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:36.412  1322  1405 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ca217bd u0 com.BioGAME/com.epicgames.ue4.GameActivity t14} time:2303878
+
+11-04 18:00:36.417 15517 15544 D UE4     : Compiled with Vulkan support
+
+11-04 18:00:36.418 15517 15544 D UE4     : Vulkan library NOT detected, falling back to OpenGL ES
+
+11-04 18:00:36.418 15517 15544 D UE4     : EGL Extensions: 
+
+11-04 18:00:36.418 15517 15544 D UE4     : EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_reusable_sync EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update EGL_KHR_create_context_no_error 
+
+11-04 18:00:36.429  1322  2995 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+
+11-04 18:00:36.434  3331  3336 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+
+11-04 18:00:36.440 15517 15517 D PermissionFragment: permission granted for android.permission.WRITE_EXTERNAL_STORAGE
+
+11-04 18:00:36.442 15517 15517 D UE4     : App is running in Portrait
+
+11-04 18:00:36.442 15517 15517 D UE4     : ==============> Resuming main init
+
+11-04 18:00:36.442 15517 15517 D UE4     : ==============> GameActive.onResume complete!
+
+11-04 18:00:36.442 15517 15545 D UE4     : Case APP_CMD_RESUME
+
+11-04 18:00:36.442 15517 15545 D UE4     : LogAndroidEvents: EnqueueAppEvent : 7, 0, tid = 15545
+
+11-04 18:00:36.444  1322  2623 I Timeline: Timeline: App_transition_ready time:2303911
+
+11-04 18:00:36.448  1756  1756 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mManagedProfileInQuietMode: false mKeyguardVisible: true mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+11-04 18:00:36.613  1991  9619 I art     : Note: end time exceeds epoch: 
+
+11-04 18:00:36.730  1322  1405 I Timeline: Timeline: App_transition_stopped time:2304197
+
+11-04 18:00:36.946   736   736 V WLAN_PSA: NL MSG, len[3866], NL type[0x1C] WNI type[0x5C00] len[527]
+
+11-04 18:00:36.946   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:36.946   736   736 V WLAN_PSA: NL MSG, len[2081], NL type[0x1C] WNI type[0x5C00] len[2312]
+
+11-04 18:00:36.939   737   737 W cnss_diag: type=1400 audit(0.0:4970): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:36.946   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:36.939   737   737 W cnss_diag: type=1400 audit(0.0:4971): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:36.939   737   737 W cnss_diag: type=1400 audit(0.0:4972): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:36.939   737   737 W cnss_diag: type=1400 audit(0.0:4973): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:37.181 15517 15544 D UE4     : LogOnline:Display: OnlineSubsystemGooglePlayModule::StartupModule()
+
+11-04 18:00:37.181 15517 15544 D UE4     : FOnlineSubsystemGooglePlay::IsEnabled 0
+
+11-04 18:00:37.181 15517 15544 D UE4     : LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+
+11-04 18:00:37.182 15517 15544 D UE4     : FOnlineSubsystemGooglePlay::IsEnabled 0
+
+11-04 18:00:37.182 15517 15544 D UE4     : LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+
+11-04 18:00:37.249   737   737 W cnss_diag: type=1400 audit(0.0:4974): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:37.249   737   737 W cnss_diag: type=1400 audit(0.0:4975): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:37.253   736   736 V WLAN_PSA: NL MSG, len[1861], NL type[0x1C] WNI type[0x5C00] len[11527]
+
+11-04 18:00:37.254   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:37.321 15517 15544 D UE4     : LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+
+11-04 18:00:37.362   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:37.364   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:37.364   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:37.364   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:37.364   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:37.364   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:37.391 15517 15544 D UE4     : ***** RequestedContentScaleFactor different 1.000000 != -1.000000, not using res cache
+
+11-04 18:00:37.391 15517 15544 D UE4     : ***** Window different, not using res cache
+
+11-04 18:00:37.391 15517 15544 D UE4     : ***** WindowWidth is -1, not using res cache
+
+11-04 18:00:37.392 15517 15544 D UE4     : FAndroidGPUInfo
+
+11-04 18:00:37.392 15517 15544 D UE4     : AndroidEGL::InitSurface 1, 1
+
+11-04 18:00:37.392 15517 15544 D UE4     : AndroidEGL::CreateEGLSurface() 0xab7732a8
+
+11-04 18:00:37.392 15517 15544 D UE4     : AndroidEGL::CreateEGLSurface(1), auxSurface = eglCreatePbufferSurface(), 8x8
+
+11-04 18:00:37.512 15517 15544 D UE4     : Registering volume receiver
+
+11-04 18:00:37.517   727  1620 D audio_hw_extn: audio_extn_get_parameters: returns 
+
+11-04 18:00:37.517   727  1620 I str_params: key: 'hifi_mode' value: ''
+
+11-04 18:00:37.517 15517 15544 D UE4     : startVolumeReceiver: 15
+
+11-04 18:00:37.517 15517 15544 D UE4     : Registering battery receiver
+
+11-04 18:00:37.519 15517 15517 D UE4     : Battery: status = 2, rawlevel = 10, scale = 100
+
+11-04 18:00:37.519 15517 15544 D UE4     : Registering headset receiver
+
+11-04 18:00:37.519 15517 15517 D UE4     : nativeBatteryEvent(stat = 2, lvl = 10, t = 26.50)
+
+11-04 18:00:37.520 15517 15544 D UE4     : startHeadsetReceiver: 0
+
+11-04 18:00:37.521 15517 15544 D UE4     : nativeHeadsetEvent(0)
+
+11-04 18:00:37.565  2093  2093 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+11-04 18:00:37.579  2093  2093 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=229376 outq=0 send_len=48
+
+11-04 18:00:37.899 15517 15544 D UE4     : FPlatformOpenGLDevice:Init
+
+11-04 18:00:37.899 15517 15544 D UE4     : AndroidEGL::InitSurface 0, 1
+
+11-04 18:00:37.899 15517 15544 D UE4     : [JAVA] - SetDesiredViewSize width=720 and height=1280
+
+11-04 18:00:37.899 15517 15544 D UE4     : AndroidEGL::CreateEGLSurface() Already initialized: 0xab7732a8
+
+11-04 18:00:37.932 15517 15544 D UE4     : LogRHI:Display: Testing for shader compiler compatibility
+
+11-04 18:00:37.938 15517 15544 D UE4     : LogRHI:Display: Shaders compile fine no need to enable hacks
+
+11-04 18:00:38.364   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:38.365   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:38.365   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:38.365   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:38.365   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:38.366   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:38.646   850   850 I MSM-irqbalance: Decided to move IRQ104 from CPU5 to CPU4
+
+11-04 18:00:39.159   863   980 W XTCC-5.1.0.9: [CS-RIL-LISTENER] timerCallback fired for ril update registering, re-register
+
+11-04 18:00:39.366   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:39.367   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:39.367   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:39.367   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:39.367   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:39.367   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:39.711   736   736 V WLAN_PSA: NL MSG, len[3592], NL type[0x1C] WNI type[0x5C00] len[61453]
+
+11-04 18:00:39.711   736   736 V WLAN_PSA: NL MSG, PID: -1
+
+11-04 18:00:39.699   737   737 W cnss_diag: type=1400 audit(0.0:4976): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:39.699   737   737 W cnss_diag: type=1400 audit(0.0:4977): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:40.030 15517 15544 D UE4     : [2018.11.04-17.00.40:029][  0]LogEngine:Display: Android Version Make Model Language: 6.0.1 Xiaomi Redmi 3S es_ES
+
+11-04 18:00:40.030 15517 15544 D UE4     : [2018.11.04-17.00.40:030][  0]LogAndroid: Case APP_CMD_START
+
+11-04 18:00:40.030 15517 15544 D UE4     : [2018.11.04-17.00.40:030][  0]LogAndroid: Case APP_CMD_RESUME
+
+11-04 18:00:40.030 15517 15544 D UE4     : [2018.11.04-17.00.40:030][  0]LogInit:Display: Running engine for game: Bio
+
+11-04 18:00:40.030 15517 15544 D UE4     : [2018.11.04-17.00.40:030][  0]LogInit:Display: RandInit(-1257545083) SRandInit(-1257545081).
+
+11-04 18:00:40.030 15517 15544 D UE4     : [2018.11.04-17.00.40:030][  0]LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:030][  0]LogAndroid: Case APP_CMD_INPUT_CHANGED
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogStats: Stats thread started at 0.362308
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogAndroid: Case APP_CMD_INIT_WINDOW
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogAndroid: Case APP_CMD_PAUSE
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogAndroid: Case APP_CMD_RESUME
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogInit: Using libcurl 7.46.0
+
+11-04 18:00:40.031 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogInit:  - built for arm-unknown-linux-androideabi
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:031][  0]LogInit:  - supports SSL with OpenSSL/1.0.1s
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:032][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:032][  0]LogInit:  - other features:
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:032][  0]LogInit:      CURL_VERSION_SSL
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:032][  0]LogInit:      CURL_VERSION_LIBZ
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:032][  0]LogInit:      CURL_VERSION_IPV6
+
+11-04 18:00:40.032 15517 15544 D UE4     : [2018.11.04-17.00.40:032][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+
+11-04 18:00:40.033 15517 15544 D UE4     : [2018.11.04-17.00.40:033][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+
+11-04 18:00:40.033 15517 15544 D UE4     : [2018.11.04-17.00.40:033][  0]LogInit:  Libcurl: using generated PEM file: '/storage/emulated/0/Android/data/com.BioGAME/files/ca-bundle.pem'
+
+11-04 18:00:40.033 15517 15544 D UE4     : [2018.11.04-17.00.40:033][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+
+11-04 18:00:40.033 15517 15544 D UE4     : [2018.11.04-17.00.40:033][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+
+11-04 18:00:40.033 15517 15544 D UE4     : [2018.11.04-17.00.40:033][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+
+11-04 18:00:40.033 15517 15544 D UE4     : [2018.11.04-17.00.40:033][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+
+11-04 18:00:40.034 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogInit:  - CertBundlePath = /storage/emulated/0/Android/data/com.BioGAME/files/ca-bundle.pem  - Libcurl will set CURLOPT_CAINFO to it
+
+11-04 18:00:40.034 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogOnline:Display: OnlineSubsystemGooglePlayModule::StartupModule()
+
+11-04 18:00:40.034 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+
+11-04 18:00:40.034 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+
+11-04 18:00:40.034 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogInit: Build: ++UE4+Release-4.16-CL-3561208
+
+11-04 18:00:40.034 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:034][  0]LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:035][  0]LogInit: Net CL: 3452394
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:035][  0]LogDevObjectVersion: Number of dev versions registered: 16
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:035][  0]LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:035][  0]LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:035][  0]LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+
+11-04 18:00:40.035 15517 15544 D UE4     : [2018.11.04-17.00.40:035][  0]LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+
+11-04 18:00:40.036 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+
+11-04 18:00:40.036 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+
+11-04 18:00:40.036 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+
+11-04 18:00:40.036 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+
+11-04 18:00:40.036 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+
+11-04 18:00:40.036 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:036][  0]LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:037][  0]LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:037][  0]LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:037][  0]LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:037][  0]LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:037][  0]LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+
+11-04 18:00:40.037 15517 15544 D UE4     : [2018.11.04-17.00.40:037][  0]LogInit: Compiled (32-bit): Jul 28 2017 12:17:52
+
+11-04 18:00:40.038 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Compiled with Clang: 3.8.256229 
+
+11-04 18:00:40.038 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Build Configuration: Development
+
+11-04 18:00:40.038 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Branch Name: ++UE4+Release-4.16
+
+11-04 18:00:40.038 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Command line:   /Game/Levels/Menu/MENU -Messaging -SessionId=04269946459F33FE79A4D39F7A9807D5 -SessionOwner="Ferran" -SessionName="Launch On Device" -iterative
+
+11-04 18:00:40.038 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Base directory: 
+
+11-04 18:00:40.038 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Installed Engine Build: 0
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:038][  0]LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:039][  0]LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:039][  0]LogInit: Object subsystem initialized
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:039][  0]LogAndroid: Mobile HDR: YES
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:039][  0]LogAndroid: Requires 32BPP Encoding: no
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:039][  0]LogAndroid: Requires Mosaic: no
+
+11-04 18:00:40.039 15517 15544 D UE4     : [2018.11.04-17.00.40:039][  0]LogAndroid: Setting Width=720 and Height=1280 (requested scale = 1.000000)
+
+11-04 18:00:40.040 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid: Checking 23 rules from DeviceProfile ini file.
+
+11-04 18:00:40.040 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid:   Default profile: Android_Default
+
+11-04 18:00:40.040 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid:   GpuFamily: Adreno (TM) 505
+
+11-04 18:00:40.040 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid:   GlVersion: OpenGL ES 3.1 V@145.0 (GIT@I74772a33ad)
+
+11-04 18:00:40.040 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid:   VulkanVersion: 0.0.0
+
+11-04 18:00:40.040 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid:   AndroidVersion: 6.0.1
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:040][  0]LogAndroid:   DeviceMake: Xiaomi
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogAndroid:   DeviceModel: Redmi 3S
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogAndroid: Selected Device Profile: [Android_Adreno5xx]
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Android_Adreno5xx]
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogInit: Setting Device Profile CVar: [[r.BloomQuality:1]]
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogInit: Setting Device Profile CVar: [[r.DepthOfFieldQuality:1]]
+
+11-04 18:00:40.041 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogInit: Setting Device Profile CVar: [[r.LightShaftQuality:1]]
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:041][  0]LogInit: Setting Device Profile CVar: [[r.RefractionQuality:1]]
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:042][  0]LogInit: Setting Device Profile CVar: [[r.MobileContentScaleFactor:1.0]]
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:042][  0]LogInit: Setting Device Profile CVar: [[r.ShadowQuality:2]]
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:042][  0]LogInit: Setting Device Profile CVar: [[slate.AbsoluteIndices:1]]
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:042][  0]LogInit: Memory total: Physical=1854.74MB (2GB approx) Available=705.32MB PageSize=4.0KB
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:042][  0]LogInit: Using OS detected language (es-ES).
+
+11-04 18:00:40.042 15517 15544 D UE4     : [2018.11.04-17.00.40:042][  0]LogInit: Using OS detected locale (es-ES).
+
+11-04 18:00:40.043 15517 15544 D UE4     : [2018.11.04-17.00.40:043][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the language.
+
+11-04 18:00:40.043 15517 15544 D UE4     : [2018.11.04-17.00.40:043][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the locale.
+
+11-04 18:00:40.043 15517 15544 D UE4     : [2018.11.04-17.00.40:043][  0]LogRHI: Initializing OpenGL RHI
+
+11-04 18:00:40.043 15517 15544 D UE4     : [2018.11.04-17.00.40:043][  0]LogRHI:   GL_VENDOR: Qualcomm
+
+11-04 18:00:40.043 15517 15544 D UE4     : [2018.11.04-17.00.40:043][  0]LogRHI:   GL_RENDERER: Adreno (TM) 505
+
+11-04 18:00:40.043 15517 15544 D UE4     : [2018.11.04-17.00.40:043][  0]LogRHI:   GL_VERSION: OpenGL ES 3.1 V@145.0 (GIT@I74772a33ad)
+
+11-04 18:00:40.044 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 3.10
+
+11-04 18:00:40.044 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI: OpenGL Extensions:
+
+11-04 18:00:40.044 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI:   GL_OES_EGL_image
+
+11-04 18:00:40.044 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI:   GL_OES_EGL_image_external
+
+11-04 18:00:40.044 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI:   GL_OES_EGL_sync
+
+11-04 18:00:40.044 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI:   GL_OES_vertex_half_float
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:044][  0]LogRHI:   GL_OES_framebuffer_object
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:045][  0]LogRHI:   GL_OES_rgb8_rgba8
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:045][  0]LogRHI:   GL_OES_compressed_ETC1_RGB8_texture
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:045][  0]LogRHI:   GL_AMD_compressed_ATC_texture
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:045][  0]LogRHI:   GL_KHR_texture_compression_astc_ldr
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:045][  0]LogRHI:   GL_KHR_texture_compression_astc_hdr
+
+11-04 18:00:40.045 15517 15544 D UE4     : [2018.11.04-17.00.40:045][  0]LogRHI:   GL_OES_texture_compression_astc
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_OES_texture_npot
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_EXT_texture_format_BGRA8888
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_OES_texture_3D
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_EXT_color_buffer_float
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_EXT_color_buffer_half_float
+
+11-04 18:00:40.046 15517 15544 D UE4     : [2018.11.04-17.00.40:046][  0]LogRHI:   GL_QCOM_alpha_test
+
+11-04 18:00:40.047 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_OES_depth24
+
+11-04 18:00:40.047 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_OES_packed_depth_stencil
+
+11-04 18:00:40.047 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_OES_depth_texture
+
+11-04 18:00:40.047 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_OES_depth_texture_cube_map
+
+11-04 18:00:40.047 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_EXT_sRGB
+
+11-04 18:00:40.047 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_OES_texture_float
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:047][  0]LogRHI:   GL_OES_texture_float_linear
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:048][  0]LogRHI:   GL_OES_texture_half_float
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:048][  0]LogRHI:   GL_OES_texture_half_float_linear
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:048][  0]LogRHI:   GL_EXT_texture_type_2_10_10_10_REV
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:048][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:048][  0]LogRHI:   GL_OES_element_index_uint
+
+11-04 18:00:40.048 15517 15544 D UE4     : [2018.11.04-17.00.40:048][  0]LogRHI:   GL_EXT_copy_image
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_EXT_geometry_shader
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_EXT_tessellation_shader
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_OES_texture_stencil8
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_EXT_shader_io_blocks
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_OES_shader_image_atomic
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_OES_sample_variables
+
+11-04 18:00:40.049 15517 15544 D UE4     : [2018.11.04-17.00.40:049][  0]LogRHI:   GL_EXT_texture_border_clamp
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_EXT_multisampled_render_to_texture
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_OES_shader_multisample_interpolation
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_EXT_texture_cube_map_array
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_EXT_draw_buffers_indexed
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_EXT_gpu_shader5
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_EXT_robustness
+
+11-04 18:00:40.050 15517 15544 D UE4     : [2018.11.04-17.00.40:050][  0]LogRHI:   GL_EXT_texture_buffer
+
+11-04 18:00:40.051 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_EXT_shader_framebuffer_fetch
+
+11-04 18:00:40.051 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_ARM_shader_framebuffer_fetch_depth_stencil
+
+11-04 18:00:40.051 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_OES_texture_storage_multisample_2d_array
+
+11-04 18:00:40.051 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_OES_sample_shading
+
+11-04 18:00:40.051 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_OES_get_program_binary
+
+11-04 18:00:40.051 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_EXT_debug_label
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:051][  0]LogRHI:   GL_KHR_blend_equation_advanced
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:052][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:052][  0]LogRHI:   GL_QCOM_tiled_rendering
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:052][  0]LogRHI:   GL_ANDROID_extension_pack_es31a
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:052][  0]LogRHI:   GL_EXT_primitive_bounding_box
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:052][  0]LogRHI:   GL_OES_standard_derivatives
+
+11-04 18:00:40.052 15517 15544 D UE4     : [2018.11.04-17.00.40:052][  0]LogRHI:   GL_OES_vertex_array_object
+
+11-04 18:00:40.053 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_EXT_disjoint_timer_query
+
+11-04 18:00:40.053 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_KHR_debug
+
+11-04 18:00:40.053 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_EXT_YUV_target
+
+11-04 18:00:40.053 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_EXT_sRGB_write_control
+
+11-04 18:00:40.053 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_EXT_texture_norm16
+
+11-04 18:00:40.053 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_EXT_discard_framebuffer
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:053][  0]LogRHI:   GL_OES_surfaceless_context
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:054][  0]LogRHI:   GL_OVR_multiview
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:054][  0]LogRHI:   GL_OVR_multiview2
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:054][  0]LogRHI:   GL_EXT_texture_sRGB_R8
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:054][  0]LogRHI:   GL_KHR_no_error
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:054][  0]LogRHI:   GL_EXT_debug_marker
+
+11-04 18:00:40.054 15517 15544 D UE4     : [2018.11.04-17.00.40:054][  0]LogRHI:   GL_OVR_multiview_multisampled_render_to_texture
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI:   GL_EXT_buffer_storage
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI:   GL_EXT_blit_framebuffer_params
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 32
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI:   GL_MAX_VARYING_VECTORS: 31
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI:   GL_MAX_VERTEX_UNIFORM_VECTORS: 256
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI:   GL_MAX_FRAGMENT_UNIFORM_VECTORS: 256
+
+11-04 18:00:40.055 15517 15544 D UE4     : [2018.11.04-17.00.40:055][  0]LogRHI: Fragment shader lowp precision: 10
+
+11-04 18:00:40.056 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI: Fragment shader mediump precision: 10
+
+11-04 18:00:40.056 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI: Fragment shader highp precision: 23
+
+11-04 18:00:40.056 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI: Support for 4x MSAA detected
+
+11-04 18:00:40.056 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI: Device supports mobile multi-view.
+
+11-04 18:00:40.056 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+
+11-04 18:00:40.056 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:056][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 16
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 1
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_SAMPLES: 1
+
+11-04 18:00:40.057 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 1
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:057][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 1
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:058][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 1
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:058][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 96
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:058][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 32
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:058][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:058][  0]LogRHI: OpenGL MajorVersion = 2, MinorVersion = 0, ShaderPlatform = GLSL_ES2, FeatureLevel = ES2
+
+11-04 18:00:40.058 15517 15544 D UE4     : [2018.11.04-17.00.40:058][  0]LogRHI: PLATFORM_ANDROID
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogRHI:Display: Testing for shader compiler compatibility
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogRHI:Display: Shaders compile fine no need to enable hacks
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogMaterial: Verifying Global Shaders for GLSL_ES2
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogSlate: Using Freetype 2.4.12
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+
+11-04 18:00:40.059 15517 15544 D UE4     : [2018.11.04-17.00.40:059][  0]LogAssetRegistry: FAssetRegistry took 0.1317 seconds to start up
+
+11-04 18:00:40.060 15517 15544 D UE4     : [2018.11.04-17.00.40:060][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.031505 seconds
+
+11-04 18:00:40.060 15517 15544 D UE4     : [2018.11.04-17.00.40:060][  0]LogNetVersion: Bio , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 343922727)
+
+11-04 18:00:40.070 15517 15544 D UE4     : Assertion failed: A.ArrayNum >= 0 [File:Runtime/Core/Public\Containers/Array.h] [Line: 1098] 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FDebug::LogAssertFailedMessage(char const*, char const*, int, wchar_t const*, ...) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!operator<<(FArchive&, TArray<unsigned char, FDefaultAllocator>&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FShaderResource::Serialize(FArchive&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FShader::SerializeBase(FArchive&, bool) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!TShaderMap<FMeshMaterialShaderType>::SerializeShaderForLoad(FShaderType*, FArchive&, bool, bool) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!TShaderMap<FMeshMaterialShaderType>::SerializeInline(FArchive&, bool, bool) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FMaterialShaderMap::Serialize(FArchive&, bool) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FMaterial::SerializeInlineShaderMap(FArchive&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!SerializeInlineShaderMaps(TMap<ITargetPlatform const*, TArray<FMaterialResource*, FDefaultAllocator>, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<ITargetPlatform const*, TArray<FMaterialResource*, FDefaultAllocator>, false> > const*, FArchive&, TArray<FMaterialResource, FDefaultAllocator>&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!UMaterialInstance::Serialize(FArchive&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncPackage::EventDrivenSerializeExport(int) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncPackage::ProcessImportsAndExports_Event() 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncPackage::Event_ProcessImportsAndExports() 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncLoadEventQueue::PopAndExecute(FAsyncLoadEventArgs&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncLoadingThread::ProcessAsyncLoading(int&, bool, bool, float, FFlushTree*) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncLoadingThread::TickAsyncThread(bool, bool, float, bool&, FFlushTree*) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FAsyncLoadingThread::TickAsyncLoading(bool, bool, float, FFlushTree*) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FlushAsyncLoading(int) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!LoadPackageInternal(UPackage*, wchar_t const*, unsigned int, FLinkerLoad*) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!ResolveName(UObject*&, FString&, bool, bool, unsigned int) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!StaticLoadObjectInternal(UClass*, UObject*, wchar_t const*, wchar_t const*, unsigned int, UPackageMap*, bool) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!StaticLoadObject(UClass*, UObject*, wchar_t const*, wchar_t const*, unsigned int, UPackageMap*, bool) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!UMaterialInterface* ConstructorHelpersInternal::FindOrLoadObject<UMaterialInterface>(FString&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!ConstructorHelpers::FObjectFinder<UMaterialInterface>::FObjectFinder(wchar_t const*) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!UWidgetComponent::UWidgetComponent(FObjectInitializer const&) 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!UClass::CreateDefaultObject() 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!ProcessNewlyLoadedUObjects() 
+
+11-04 18:00:40.070 15517 15544 D UE4     : libUE4.so!FEngineLoop::PreInit(wchar_t const*) 
+
+11-04 18:00:40.071 15517 15544 D UE4     : libUE4.so!FEngineLoop::PreInit(int, wchar_t**, wchar_t const*) 
+
+11-04 18:00:40.071 15517 15544 D UE4     : libUE4.so!AndroidMain(android_app*) 
+
+11-04 18:00:40.071 15517 15544 D UE4     : libUE4.so!android_main() 
+
+11-04 18:00:40.071 15517 15544 D UE4     : libUE4.so![Unknown]() 
+
+11-04 18:00:40.071 15517 15544 D UE4     : libc.so![Unknown]() 
+
+11-04 18:00:40.071 15517 15544 D UE4     : libc.so![Unknown]() 
+
+11-04 18:00:40.071 15517 15544 D UE4     : [2018.11.04-17.00.40:071][  0]Assertion failed: Assertion failed: A.ArrayNum >= 0 [File:Runtime/Core/Public\Containers/Array.h] [Line: 1098] 
+
+11-04 18:00:40.072 15517 15544 I art     : System.exit called, status: 0
+
+11-04 18:00:40.072 15517 15544 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+
+11-04 18:00:40.185  1322  2686 D GraphicsStats: Buffer count: 3
+
+11-04 18:00:40.188  1322  1699 W InputDispatcher: channel '11ed944 com.BioGAME/com.epicgames.ue4.GameActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+
+11-04 18:00:40.188  1322  1699 E InputDispatcher: channel '11ed944 com.BioGAME/com.epicgames.ue4.GameActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+
+11-04 18:00:40.189  1322  1339 W ActivityManager: Force removing ActivityRecord{ca217bd u0 com.BioGAME/com.epicgames.ue4.GameActivity t14}: app died, no saved state
+
+11-04 18:00:40.192  1322  2583 W InputDispatcher: Attempted to unregister already unregistered input channel '11ed944 com.BioGAME/com.epicgames.ue4.GameActivity (server)'
+
+11-04 18:00:40.192  1322  2583 W WindowManager: Force-removing child win Window{70d1b74 u0 SurfaceView} from container Window{11ed944 u0 com.BioGAME/com.epicgames.ue4.GameActivity}
+
+11-04 18:00:40.199  1322  2429 W WindowManager: Failed looking up window
+
+11-04 18:00:40.199  1322  2429 W WindowManager: java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@eed6a2d does not exist
+
+11-04 18:00:40.199  1322  2429 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9026)
+
+11-04 18:00:40.199  1322  2429 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9017)
+
+11-04 18:00:40.199  1322  2429 W WindowManager: 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1248)
+
+11-04 18:00:40.199  1322  2429 W WindowManager: 	at android.os.BinderProxy.sendDeathNotice(Binder.java:569)
+
+11-04 18:00:40.202  3331  3336 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+
+11-04 18:00:40.202  3331  3336 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+
+11-04 18:00:40.241  1322  1339 I Timeline: Timeline: App_transition_ready time:2307708
+
+11-04 18:00:40.243  2672  3133 I RenderThread: RenderThread resumed
+
+11-04 18:00:40.243  2672  3133 D ScreenElementRoot: resume
+
+11-04 18:00:40.245  1756  1756 D PhoneStatusBar: disable: 0x00000100 -> 0x00000000 (diff: 0x00000100)
+
+11-04 18:00:40.245  1756  1756 D PhoneStatusBar: disable: < expand icons alerts ticker system_info back home recent clock full hide* keyguard none float >
+
+11-04 18:00:40.245  1756  1756 D PhoneStatusBar: showStatusBar isshow=true;delay=false
+
+11-04 18:00:40.250  2672  3133 I NotifierManager: onRegister: miui.maml.NotifierManager$MultiBroadcastNotifier@4e6a6ec
+
+11-04 18:00:40.250  2672  3133 I art     : Note: end time exceeds epoch: 
+
+11-04 18:00:40.274  1756  1756 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mManagedProfileInQuietMode: false mKeyguardVisible: true mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+11-04 18:00:40.367   738   820 D ThermalEngine: sensor_wait: case_therm Wait done.
+
+11-04 18:00:40.369   738   820 D ThermalEngine: sensor_monitor: case_therm Reading 31000 .
+
+11-04 18:00:40.369   738   820 I ThermalEngine: Sensor:case_therm:31000 mC
+
+11-04 18:00:40.369   738   820 D ThermalEngine: update_active_thresh: case_therm Active(1), Hi(1) 40000, Lo(0) -2147483648, Interval(1) 1000
+
+11-04 18:00:40.369   738   820 D ThermalEngine: sensor_monitor: case_therm Sensor wait.
+
+11-04 18:00:40.369   738   820 D ThermalEngine: sensor_wait: case_therm Wait start. 1000ms
+
+11-04 18:00:40.507  1322  1405 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{e87059d u0 com.miui.home/.launcher.Launcher t1} time:2307974
+
+11-04 18:00:40.509  1322  1405 I Timeline: Timeline: App_transition_stopped time:2307975
+
+11-04 18:00:40.584  2093  2093 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+11-04 18:00:40.585   736   736 V WLAN_PSA: NL MSG, len[4074], NL type[0x1C] WNI type[0x5900] len[53775]
+
+11-04 18:00:40.585   736   736 V WLAN_PSA: NL MSG, PID: 0
+
+11-04 18:00:40.579   737   737 W cnss_diag: type=1400 audit(0.0:4978): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
+11-04 18:00:40.579   737   737 W cnss_diag: type=1400 audit(0.0:4979): avc: denied { search } for name="user" dev="tmpfs" ino=6732 scontext=u:r:wcnss_service:s0 tcontext=u:object_r:mnt_user_file:s0 tclass=dir permissive=0
+
