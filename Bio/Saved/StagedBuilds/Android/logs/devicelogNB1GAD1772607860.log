@@ -1,0 +1,318 @@
+--------- beginning of system
+11-04 20:48:27.361  1263  3597 D ActivityManager: userId2 =0
+11-04 20:48:27.361  1263  3597 D ActivityManager: resolveActivity - rInfo =ResolveInfo{a514874 com.BioGAME/com.epicgames.ue4.SplashActivity m=0x0}
+11-04 20:48:27.361  1263  3597 I ActivityManager: START u0 {flg=0x10000000 cmp=com.BioGAME/com.epicgames.ue4.SplashActivity} from uid 2000
+--------- beginning of main
+11-04 20:48:27.369  1263  3597 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{37477e0 com.BioGAME}
+11-04 20:48:27.369  1263  3597 E ActivityTrigger: activityStartTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.SplashActivity/1
+11-04 20:48:27.369  1263  3597 D CompatibilityInfo: mCompatibilityFlags - 14
+11-04 20:48:27.369  1263  3597 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.369  1263  3597 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.369  1263  3597 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{37477e0 com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.369  1263  3597 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.SplashActivity/1
+11-04 20:48:27.375  1263  3597 I ActivityManager: Start proc 3433:com.BioGAME/u0a228 for activity com.BioGAME/com.epicgames.ue4.SplashActivity
+11-04 20:48:27.377  1263  2347 V ActivityManager: notifyProcessStart: com.BioGAME for: activity from: null packageName: com.BioGAME className: com.epicgames.ue4.SplashActivity
+11-04 20:48:27.380  5040  7022 D [PowerSavingAppG3]ProcessMonitorService: calleePackageName = com.BioGAME,callerPacageName = null,hostingType = activity,screenOn = false,cmp = com.epicgames.ue4.SplashActivity,cat = ,action = null,isExceptionalActivitiy = false
+11-04 20:48:27.381  3433  3433 I zygote  : Late-enabling -Xcheck:jni
+11-04 20:48:27.396  3433  3433 W zygote  : Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+11-04 20:48:27.408  5040  7022 D [PowerSavingAppG3]ProcessMonitorService: Ignore package com.BioGAME,component = com.epicgames.ue4.SplashActivity
+11-04 20:48:27.409  1263  3597 D CompatibilityInfo: mCompatibilityFlags - 14
+11-04 20:48:27.409  1263  3597 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.409  1263  3597 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.414  1263  3597 D CompatibilityInfo: mCompatibilityFlags - 14
+11-04 20:48:27.414  1263  3597 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.414  1263  3597 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.416  1263  3597 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+11-04 20:48:27.418  5040 23883 I [PowerSavingAppG3]ProcessMonitorService: pid: 3433, calleeApp: com.BioGAME
+11-04 20:48:27.419  5040 23883 I PowerSavingAppG3: [PowerSavingUtils] isLauncherAP = com.BioGAME,true
+11-04 20:48:27.419  5040 23883 I [PowerSavingAppG3]ProcessMonitorService: com.BioGAME add to mTopApList.
+11-04 20:48:27.419  5040 22752 I [PowerSavingAppG3]BackgroundCleanService: pid: 3433, calleeApp: com.BioGAME
+11-04 20:48:27.420  5040 22752 I PowerSavingAppG3: [PowerSavingUtils] isLauncherAP = com.BioGAME,true
+11-04 20:48:27.420  5040 22752 I [PowerSavingAppG3]BackgroundCleanService: com.BioGAME add to mTopApList.
+11-04 20:48:27.451  1263  5637 D ActivityManager: userId2 =0
+11-04 20:48:27.451  1263  5637 D ActivityManager: resolveActivity - rInfo =ResolveInfo{8c5693f com.BioGAME/com.epicgames.ue4.GameActivity m=0x0}
+11-04 20:48:27.451  1263  5637 I ActivityManager: START u0 {flg=0x10000 cmp=com.BioGAME/com.epicgames.ue4.GameActivity (has extras)} from uid 10228
+11-04 20:48:27.453  1263  5637 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{7a4d56a com.BioGAME}
+11-04 20:48:27.453  1263  5637 E ActivityTrigger: activityStartTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.453  1263  5637 D CompatibilityInfo: mCompatibilityFlags - 14
+11-04 20:48:27.453  1263  5637 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.453  1263  5637 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.453  1263  5637 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{7a4d56a com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.454  1263  5637 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.456  1263  5637 D WindowManager: App finish appWindow = AppWindowToken{c5d7a99 token=Token{45591e3 ActivityRecord{6309612 u0 com.BioGAME/com.epicgames.ue4.SplashActivity t3515}}}
+11-04 20:48:27.464  3433  3433 I PhoneWindow: isNeedChangeStatusBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@85d7398] size: 1
+11-04 20:48:27.465  3433  3433 I PhoneWindow: isAPPNeedChangeSBColor pkgName: com.BioGAME needKeep: false
+11-04 20:48:27.465  3433  3433 I PhoneWindow: isNeedChangeStatusBarColor false
+11-04 20:48:27.465  3433  3433 I PhoneWindow: isNeedChangeNaviBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@892b7f1] size: 1
+11-04 20:48:27.465  3433  3433 I PhoneWindow: isAPPNeedChange pkgName: com.BioGAME needKeep: false
+11-04 20:48:27.465  3433  3433 I PhoneWindow: isNeedChangeNaviBarColor false
+11-04 20:48:27.465  3433  3433 I PhoneWindow: generateLayout mNavigationBarColor: ff000000
+11-04 20:48:27.465  3433  3433 I PhoneWindow: generateLayout isLightNavi false, Visibility: 0
+11-04 20:48:27.497  1263  5637 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{7a4d56a com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.497  1263  5637 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.498  1263  5637 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{7a4d56a com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.498  1263  5637 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.499  1263  5637 D CompatibilityInfo: mCompatibilityFlags - 14
+11-04 20:48:27.499  1263  5637 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.499  1263  5637 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.500  1263  5637 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+11-04 20:48:27.587  3433  3433 D UE4     : In the JNI_OnLoad function
+11-04 20:48:27.587  3433  3433 D UE4     : [JNI] - Failed to determine if app purchasing is enabled!
+11-04 20:48:27.589  3433  3433 D UE4     : Path found as '/storage/emulated/0'
+11-04 20:48:27.590  3433  3433 D UE4     : Font Path found as '/system/fonts/'
+11-04 20:48:27.590  3433  3433 D UE4     : In the JNI_OnLoad function 5
+11-04 20:48:27.595  3433  3433 I PhoneWindow: isNeedChangeStatusBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@5ed3362] size: 1
+11-04 20:48:27.595  3433  3433 I PhoneWindow: isAPPNeedChangeSBColor pkgName: com.BioGAME needKeep: false
+11-04 20:48:27.595  3433  3433 I PhoneWindow: isNeedChangeStatusBarColor false
+11-04 20:48:27.595  3433  3433 I PhoneWindow: isNeedChangeNaviBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@b72ecf3] size: 1
+11-04 20:48:27.595  3433  3433 I PhoneWindow: isAPPNeedChange pkgName: com.BioGAME needKeep: false
+11-04 20:48:27.595  3433  3433 I PhoneWindow: isNeedChangeNaviBarColor false
+11-04 20:48:27.595  3433  3433 I PhoneWindow: generateLayout mNavigationBarColor: ff000000
+11-04 20:48:27.595  3433  3433 I PhoneWindow: generateLayout isLightNavi false, Visibility: 0
+11-04 20:48:27.603  3433  3455 D UE4     : Entering native app glue main function
+11-04 20:48:27.603  3433  3455 D UE4     : Created event thread
+11-04 20:48:27.603  3433  3455 D UE4     : Entered AndroidMain()
+11-04 20:48:27.603  3433  3456 D UE4     : Entering event processing thread engine entry point
+11-04 20:48:27.603  3433  3456 D UE4     : Prepared looper for event thread
+11-04 20:48:27.603  3433  3456 D UE4     : Passed callback initialization
+11-04 20:48:27.604  3433  3455 D UE4     : Controller interface supported
+11-04 20:48:27.606  3433  3456 D UE4     : Passed sensor initialization
+11-04 20:48:27.607  3433  3433 I PhoneWindow: isNeedChangeStatusBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@b131db0] size: 1
+11-04 20:48:27.607  3433  3433 I PhoneWindow: isAPPNeedChangeSBColor pkgName: com.BioGAME needKeep: false
+11-04 20:48:27.607  3433  3433 I PhoneWindow: isNeedChangeStatusBarColor false
+11-04 20:48:27.607  2382 11761 D CustomizeUtils: getConfig() : srsId = F_FORCE_STOP_PROCESS result = false type = bool pkg = com.android.systemui
+11-04 20:48:27.608  3433  3433 I PhoneWindow: isNeedChangeNaviBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@4f7429] size: 1
+11-04 20:48:27.608  3433  3433 I PhoneWindow: isAPPNeedChange pkgName: com.BioGAME needKeep: false
+11-04 20:48:27.608  3433  3433 I PhoneWindow: isNeedChangeNaviBarColor false
+11-04 20:48:27.608  3433  3433 I PhoneWindow: generateLayout mNavigationBarColor: ff000000
+11-04 20:48:27.608  3433  3433 I PhoneWindow: generateLayout isLightNavi false, Visibility: 0
+11-04 20:48:27.617  3433  3459 D OpenGLRenderer: HWUI GL Pipeline
+11-04 20:48:27.623  3433  3433 D PermissionFragment: Creating PlayGamesFragment
+11-04 20:48:27.625  1263  5637 D ActivityManager: userId2 =0
+11-04 20:48:27.625  1263  5637 D ActivityManager: resolveActivity - rInfo =ResolveInfo{abeb9d3 com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity p=1 m=0x108000}
+11-04 20:48:27.625  1263  5637 I ActivityManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.google.android.packageinstaller cmp=com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10228
+11-04 20:48:27.627  1263  5637 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{218badc com.google.android.packageinstaller}
+11-04 20:48:27.627  1263  5637 E ActivityTrigger: activityStartTrigger: not whiteListedcom.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity/27
+11-04 20:48:27.627  1263  5637 D CompatibilityInfo: mCompatibilityFlags - 4
+11-04 20:48:27.627  1263  5637 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.627  1263  5637 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.627  1263  5637 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{218badc com.google.android.packageinstaller} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.627  1263  5637 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity/27
+11-04 20:48:27.632  3433  3433 D UE4     : Vulkan version: 1.0.3
+11-04 20:48:27.632  3433  3433 D UE4     : Vulkan level: 0
+11-04 20:48:27.634  3433  3433 D UE4     : Found DepthBufferPreference = 0
+11-04 20:48:27.634  3433  3433 D UE4     : Found bPackageDataInsideApk = 0
+11-04 20:48:27.634  3433  3433 D UE4     : Found ProjectName = Bio
+11-04 20:48:27.634  3433  3433 D UE4     : Found bHasOBBFiles = 0
+11-04 20:48:27.634  3433  3433 D UE4     : Found bVerifyOBBOnStartUp = false
+11-04 20:48:27.634  3433  3433 D UE4     : UI hiding set to false
+11-04 20:48:27.634  3433  3433 D UE4     : BuildConfiguration set to Development
+11-04 20:48:27.634  3433  3433 D UE4     : UseExternalFilesDir set to false
+11-04 20:48:27.634  3433  3433 D UE4     : No GearVR mode detected.
+11-04 20:48:27.634  3433  3433 D UE4     : APK path: /data/app/com.BioGAME-SGw64J2TBYP9nW4ST9Hn5A==/base.apk
+11-04 20:48:27.634  3433  3433 D UE4     : OBB in APK: false
+11-04 20:48:27.636  3433  3433 D UE4     : ExternalFilePath found as '/storage/emulated/0/Android/data/com.BioGAME/files'
+11-04 20:48:27.636  3433  3433 D UE4     : App is running in Portrait
+11-04 20:48:27.636  3433  3433 D UE4     : Android version is 8.1.0
+11-04 20:48:27.636  3433  3433 D UE4     : Android manufacturer is HMD Global
+11-04 20:48:27.637  3433  3433 D UE4     : Android model is TA-1004
+11-04 20:48:27.637  3433  3433 D UE4     : OS language is set to es_ES
+11-04 20:48:27.682  3433  3433 W PopupManager: You have not specified a View to use as content view for popups. Falling back to the Activity content view. Note that this may not work as expected in multi-screen environments
+11-04 20:48:27.686  3433  3433 D UE4     : ==============> GameActive.onCreate complete!
+11-04 20:48:27.686  3433  3433 D UE4     : Creating console command broadcast listener
+11-04 20:48:27.687  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 9, 0, tid = 3456
+11-04 20:48:27.688  3433  3433 D UE4     : ==================================> Inside onStart function in GameActivity
+11-04 20:48:27.690  3433  3456 D UE4     : Case APP_CMD_RESUME
+11-04 20:48:27.690  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 7, 0, tid = 3456
+11-04 20:48:27.690  3433  3433 D UE4     : App is running in Portrait
+11-04 20:48:27.690  3433  3433 D UE4     : ==============> Resuming main init
+11-04 20:48:27.695  3433  3455 D UE4     : Final commandline: ../../../Bio/Bio.uproject  /Game/Levels/Menu/MENU -Messaging -SessionId=A157836243E65CC66F8CA8B56D9F2C27 -SessionOwner="Ferran" -SessionName="Launch On Device" -iterative
+11-04 20:48:27.695  3433  3455 D UE4     : Created sync event
+11-04 20:48:27.700  3433  3433 D UE4     : ==============> GameActive.onResume complete!
+11-04 20:48:27.708  3433  3456 D UE4     : Case APP_CMD_PAUSE
+11-04 20:48:27.708  3433  3433 D UE4     : ==============> GameActive.onPause complete!
+11-04 20:48:27.708  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 6, 0, tid = 3456
+11-04 20:48:27.709  1263  5637 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{218badc com.google.android.packageinstaller} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.709  1263  5637 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity/27
+11-04 20:48:27.712  1263  5637 D CompatibilityInfo: mCompatibilityFlags - 4
+11-04 20:48:27.712  1263  5637 D CompatibilityInfo: applicationDensity - 476
+11-04 20:48:27.712  1263  5637 D CompatibilityInfo: applicationScale - 1.0
+11-04 20:48:27.713  1263  5637 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+11-04 20:48:27.714  1263  1377 D ActivityTrigger: ActivityTrigger activityStopTrigger 
+11-04 20:48:27.717  1263  5637 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{218badc com.google.android.packageinstaller} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.718  1263  5637 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity/27
+11-04 20:48:27.718  5040 22752 I [PowerSavingAppG3]BackgroundCleanService: pid: 1484, calleeApp: com.google.android.packageinstaller
+11-04 20:48:27.718  5040 22752 I PowerSavingAppG3: [PowerSavingUtils] isLauncherAP = com.google.android.packageinstaller,false
+11-04 20:48:27.718  5040 22752 I [PowerSavingAppG3]BackgroundCleanService: com.google.android.packageinstaller is not launcher app.
+11-04 20:48:27.719  5040 23883 I [PowerSavingAppG3]ProcessMonitorService: pid: 1484, calleeApp: com.google.android.packageinstaller
+11-04 20:48:27.719  5040 23883 I PowerSavingAppG3: [PowerSavingUtils] isLauncherAP = com.google.android.packageinstaller,false
+11-04 20:48:27.719  5040 23883 I [PowerSavingAppG3]ProcessMonitorService: com.google.android.packageinstaller is not launcher app.
+11-04 20:48:27.723  1263  3597 D WindowManager: App finish appWindow = AppWindowToken{bb9904b token=Token{5653c09 ActivityRecord{c059910 u0 com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity t3515}}}
+11-04 20:48:27.727  1484  1484 I PhoneWindow: isNeedChangeStatusBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@382af47] size: 1
+11-04 20:48:27.727  1484  1484 I PhoneWindow: isAPPNeedChangeSBColor pkgName: com.android.launcher3 needKeep: false
+11-04 20:48:27.727  1484  1484 I PhoneWindow: isNeedChangeStatusBarColor false
+11-04 20:48:27.727  1484  1484 I PhoneWindow: isNeedChangeNaviBarColor taskInfo: [android.app.ActivityManager$RunningTaskInfo@7f67374] size: 1
+11-04 20:48:27.727  1484  1484 I PhoneWindow: isAPPNeedChange pkgName: com.android.launcher3 needKeep: false
+11-04 20:48:27.728  1484  1484 I PhoneWindow: isNeedChangeNaviBarColor false
+11-04 20:48:27.728  1484  1484 I PhoneWindow: generateLayout mNavigationBarColor: ff000000
+11-04 20:48:27.728  1484  1484 I PhoneWindow: generateLayout isLightNavi false, Visibility: 0
+11-04 20:48:27.731  1263  2348 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{7a4d56a com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.732  1263  2348 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.732  1263  2348 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{7a4d56a com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.732  1263  2348 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.735  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 12, 0, tid = 3456
+11-04 20:48:27.736  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 8, 0, tid = 3456
+11-04 20:48:27.736  1263  2348 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+11-04 20:48:27.739  3433  3433 D UE4     : ==============> GameActive.onStop complete!
+11-04 20:48:27.744  1263  3597 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{7a4d56a com.BioGAME} is now in focus and seems to be in full-screen mode
+11-04 20:48:27.744  1263  3597 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.BioGAME/com.epicgames.ue4.GameActivity/1
+11-04 20:48:27.748  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 9, 0, tid = 3456
+11-04 20:48:27.748  3433  3433 D UE4     : Creating console command broadcast listener
+11-04 20:48:27.749  3433  3433 D UE4     : ==================================> Inside onStart function in GameActivity
+11-04 20:48:27.750  3433  3455 D UE4     : Compiled with Vulkan support
+11-04 20:48:27.750  3433  3456 D UE4     : Case APP_CMD_RESUME
+11-04 20:48:27.750  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 7, 0, tid = 3456
+11-04 20:48:27.750  3433  3433 D UE4     : App is running in Portrait
+11-04 20:48:27.750  3433  3433 D UE4     : ==============> Resuming main init
+11-04 20:48:27.750  3433  3433 D UE4     : ==============> GameActive.onResume complete!
+11-04 20:48:27.750  3433  3455 D UE4     : Vulkan library detected, checking for available driver
+11-04 20:48:27.750  3433  3455 D vndksupport: Loading /vendor/lib/hw/vulkan.msm8998.so from current namespace instead of sphal namespace.
+11-04 20:48:27.751  3433  3456 D UE4     : Case APP_CMD_PAUSE
+11-04 20:48:27.751  3433  3433 D UE4     : ==============> GameActive.onPause complete!
+11-04 20:48:27.751  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 6, 0, tid = 3456
+11-04 20:48:27.753  1263  1377 D ActivityTrigger: ActivityTrigger activityStopTrigger 
+11-04 20:48:27.757  3433  3455 D vulkan  : searching for layers in '/data/app/com.BioGAME-SGw64J2TBYP9nW4ST9Hn5A==/lib/arm'
+11-04 20:48:27.757  3433  3455 D vulkan  : searching for layers in '/system/fake-libs'
+11-04 20:48:27.758  3433  3455 D vulkan  : searching for layers in '/data/app/com.BioGAME-SGw64J2TBYP9nW4ST9Hn5A==/base.apk!/lib/armeabi-v7a'
+11-04 20:48:27.758  3433  3455 I Adreno  : QUALCOMM build          : 4a65519, I8a9bdcf8d3
+11-04 20:48:27.758  3433  3455 I Adreno  : Build Date              : 01/22/18
+11-04 20:48:27.758  3433  3455 I Adreno  : Shader Compiler Version : EV031.22.00.01
+11-04 20:48:27.758  3433  3455 I Adreno  : Local Branch            : 
+11-04 20:48:27.758  3433  3455 I Adreno  : Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.UM.6.4.R1.08.01.00.309.057
+11-04 20:48:27.758  3433  3455 I Adreno  : Remote Branch           : NONE
+11-04 20:48:27.758  3433  3455 I Adreno  : Reconstruct Branch      : NOTHING
+11-04 20:48:27.758  3433  3455 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8998.so from current namespace instead of sphal namespace.
+11-04 20:48:27.761  3433  3455 D UE4     : Vulkan driver available, will use VulkanRHI
+11-04 20:48:27.761  3433  3455 I Adreno  : QUALCOMM build                   : 4a65519, I8a9bdcf8d3
+11-04 20:48:27.761  3433  3455 I Adreno  : Build Date                       : 01/22/18
+11-04 20:48:27.761  3433  3455 I Adreno  : OpenGL ES Shader Compiler Version: EV031.22.00.01
+11-04 20:48:27.761  3433  3455 I Adreno  : Local Branch                     : 
+11-04 20:48:27.761  3433  3455 I Adreno  : Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.6.4.R1.08.01.00.309.057
+11-04 20:48:27.761  3433  3455 I Adreno  : Remote Branch                    : NONE
+11-04 20:48:27.761  3433  3455 I Adreno  : Reconstruct Branch               : NOTHING
+11-04 20:48:27.761  3433  3455 D vndksupport: Loading /vendor/lib/hw/gralloc.msm8998.so from current namespace instead of sphal namespace.
+11-04 20:48:27.762  3433  3455 I Adreno  : PFP: 0x005ff087, ME: 0x005ff063
+11-04 20:48:27.768  3433  3455 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+11-04 20:48:27.768  3433  3455 D UE4     : EGL Extensions: 
+11-04 20:48:27.768  3433  3455 D UE4     : EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_reusable_sync EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update EGL_EXT_pixel_format_float EGL_KHR_create_context_no_error EGL_KHR_mutable_render_buffer EGL_EXT_yuv_surface EGL_EXT_protected_content EGL_IMG_context_priority EGL_KHR_no_config_context 
+11-04 20:48:27.770  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 12, 0, tid = 3456
+11-04 20:48:27.770  3433  3456 D UE4     : LogAndroidEvents: EnqueueAppEvent : 8, 0, tid = 3456
+11-04 20:48:27.771  3433  3433 D UE4     : ==============> GameActive.onStop complete!
+11-04 20:48:27.789  1263  3597 I ActivityManager: Activity reported stop, but no longer stopping: ActivityRecord{7d9320c u0 com.BioGAME/com.epicgames.ue4.GameActivity t3515}
+11-04 20:48:27.841  2382 11761 D CustomizeUtils: getConfig() : srsId = F_FORCE_STOP_PROCESS result = false type = bool pkg = com.android.systemui
+11-04 20:48:27.906  3433  3455 D UE4     : LogOnline:Display: OnlineSubsystemGooglePlayModule::StartupModule()
+11-04 20:48:27.906  3433  3455 D UE4     : 
+11-04 20:48:27.906  3433  3455 D UE4     : FOnlineSubsystemGooglePlay::IsEnabled 0
+11-04 20:48:27.906  3433  3455 D UE4     : LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+11-04 20:48:27.906  3433  3455 D UE4     : 
+11-04 20:48:27.906  3433  3455 D UE4     : FOnlineSubsystemGooglePlay::IsEnabled 0
+11-04 20:48:27.906  3433  3455 D UE4     : LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+11-04 20:48:27.906  3433  3455 D UE4     : 
+11-04 20:48:27.948  3433  3455 D UE4     : LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+11-04 20:48:27.948  3433  3455 D UE4     : 
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogEngine:Display: Android Version Make Model Language: 8.1.0 HMD Global TA-1004 es_ES
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogAndroid: Case APP_CMD_START
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogAndroid: Case APP_CMD_RESUME
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogInit:Display: Running engine for game: Bio
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogInit:Display: RandInit(224378910) SRandInit(224378911).
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogStats: Stats thread started at 0.170229
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogAndroid: Case APP_CMD_INPUT_CHANGED
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogAndroid: Case APP_CMD_PAUSE
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogAndroid: Case APP_CMD_SAVE_STATE
+11-04 20:48:27.973  3433  3455 D UE4     : [2018.11.04-19.48.27:973][  0]LogAndroid: Case APP_CMD_STOP
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogAndroid: Case APP_CMD_START
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogAndroid: Case APP_CMD_RESUME
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogAndroid: Case APP_CMD_PAUSE
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogAndroid: Case APP_CMD_SAVE_STATE
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogAndroid: Case APP_CMD_STOP
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit: Using libcurl 7.46.0
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - built for arm-unknown-linux-androideabi
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - supports SSL with OpenSSL/1.0.1s
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - other features:
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:      CURL_VERSION_SSL
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:      CURL_VERSION_LIBZ
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:      CURL_VERSION_IPV6
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  Libcurl: using existing PEM file: '/storage/emulated/0/Android/data/com.BioGAME/files/ca-bundle.pem'
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+11-04 20:48:27.974  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:974][  0]LogInit:  - CertBundlePath = /storage/emulated/0/Android/data/com.BioGAME/files/ca-bundle.pem  - Libcurl will set CURLOPT_CAINFO to it
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogOnline:Display: OnlineSubsystemGooglePlayModule::StartupModule()
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogOnline:Warning: FOnlineSubsystemGooglePlayModule was disabled
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogInit: Build: ++UE4+Release-4.16-CL-3561208
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogInit: Net CL: 3452394
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion: Number of dev versions registered: 16
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+11-04 20:48:27.975  3433  3455 D UE4     : [2018.11.04-19.48.27:975][  0]LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Compiled (32-bit): Jul 28 2017 12:17:52
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Compiled with Clang: 3.8.256229 
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Build Configuration: Development
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Branch Name: ++UE4+Release-4.16
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Command line:   /Game/Levels/Menu/MENU -Messaging -SessionId=A157836243E65CC66F8CA8B56D9F2C27 -SessionOwner="Ferran" -SessionName="Launch On Device" -iterative
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Base directory: 
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Installed Engine Build: 0
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+11-04 20:48:27.976  3433  3455 D UE4     : [2018.11.04-19.48.27:976][  0]LogInit: Object subsystem initialized
+11-04 20:48:27.983  3433  3455 D UE4     : Assertion failed: Window != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Android\AndroidWindow.cpp] [Line: 126] 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!FDebug::LogAssertFailedMessage(char const*, char const*, int, wchar_t const*, ...) 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!FAndroidWindow::GetScreenRect() 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!FDisplayMetrics::GetDisplayMetrics(FDisplayMetrics&) 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!UGameEngine::DetermineGameWindowResolution(int&, int&, EWindowMode::Type&) 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!UGameUserSettings::PreloadResolutionSettings() 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!FEngineLoop::PreInit(wchar_t const*) 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!FEngineLoop::PreInit(int, wchar_t**, wchar_t const*) 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!AndroidMain(android_app*) 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so!android_main() 
+11-04 20:48:27.983  3433  3455 D UE4     : libUE4.so![Unknown]() 
+11-04 20:48:27.983  3433  3455 D UE4     : libc.so![Unknown]() 
+11-04 20:48:27.983  3433  3455 D UE4     : libc.so![Unknown]() 
+11-04 20:48:27.983  3433  3455 D UE4     : 
+11-04 20:48:27.983  3433  3455 D UE4     : [2018.11.04-19.48.27:983][  0]Assertion failed: Assertion failed: Window != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Android\AndroidWindow.cpp] [Line: 126] 
+11-04 20:48:27.983  3433  3455 D UE4     : 
+11-04 20:48:27.985  3433  3455 I zygote  : System.exit called, status: 0
+11-04 20:48:27.985  3433  3455 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+11-04 20:48:28.002  1263  2171 W InputDispatcher: channel '4556d1a com.BioGAME/com.epicgames.ue4.GameActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-04 20:48:28.002  1263  2171 E InputDispatcher: channel '4556d1a com.BioGAME/com.epicgames.ue4.GameActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-04 20:48:28.002  1263  2171 W InputDispatcher: channel '1c6a7c2 com.BioGAME/com.epicgames.ue4.GameActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-04 20:48:28.002  1263  2171 E InputDispatcher: channel '1c6a7c2 com.BioGAME/com.epicgames.ue4.GameActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+11-04 20:48:28.002  1263  2378 I WindowManager: WIN DEATH: Window{1c6a7c2 u0 com.BioGAME/com.epicgames.ue4.GameActivity}
+11-04 20:48:28.002  1263  3592 I ActivityManager: Process com.BioGAME (pid 3433) has died: fore TPSL
+11-04 20:48:28.002  1263  2378 W InputDispatcher: Attempted to unregister already unregistered input channel '1c6a7c2 com.BioGAME/com.epicgames.ue4.GameActivity (server)'
+11-04 20:48:28.002  1263  1381 W zygote64: kill(-3433, 9) failed: No such process
+11-04 20:48:28.002  1263  1381 I zygote64: Successfully killed process cgroup uid 10228 pid 3433 in 0ms
+11-04 20:48:28.004  1263  3597 I WindowManager: WIN DEATH: Window{4556d1a u0 com.BioGAME/com.epicgames.ue4.GameActivity}
+11-04 20:48:28.004  1263  3597 W InputDispatcher: Attempted to unregister already unregistered input channel '4556d1a com.BioGAME/com.epicgames.ue4.GameActivity (server)'
+11-04 20:48:28.008  1263  1440 W ActivityManager: setHasOverlayUi called on unknown pid: 3433

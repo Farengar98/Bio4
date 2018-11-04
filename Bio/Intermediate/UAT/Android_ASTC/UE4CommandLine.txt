@@ -1,0 +1,1 @@
+../../../Bio/Bio.uproject  /Game/Levels/Menu/MENU -Messaging -SessionId=A157836243E65CC66F8CA8B56D9F2C27 -SessionOwner="Ferran" -SessionName="Launch On Device" -iterative
