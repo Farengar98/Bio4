@@ -1,0 +1,218 @@
+﻿Log file open, 11/04/18 17:09:31
+LogInit:Display: Running engine for game: Bio
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1059097954) SRandInit(-1059097954).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.229684
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/Levels/Menu/UEDPCMENU -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.04-16.09.34:887][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-16.09.34:887][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.04-16.09.34:912][  0]LogInit: Computer: DESKTOP-KR2EHTK
+[2018.11.04-16.09.34:912][  0]LogInit: User: Ferran
+[2018.11.04-16.09.34:912][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.04-16.09.34:912][  0]LogInit: High frequency timer resolution =3.349777 MHz
+[2018.11.04-16.09.34:912][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.11.04-16.09.34:912][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-16.09.34:912][  0]LogMemory: Process Physical Memory: 273.32 MB used, 273.32 MB peak
+[2018.11.04-16.09.34:912][  0]LogMemory: Process Virtual Memory: 266.71 MB used, 266.71 MB peak
+[2018.11.04-16.09.34:912][  0]LogMemory: Physical Memory: 7083.14 MB used,  1071.10 MB free, 8154.25 MB total
+[2018.11.04-16.09.34:912][  0]LogMemory: Virtual Memory: 4774.41 MB used,  1071.10 MB free, 134217728.00 MB total
+[2018.11.04-16.09.35:704][  0]LogInit: Using OS detected language (es-ES).
+[2018.11.04-16.09.35:704][  0]LogInit: Using OS detected locale (es-ES).
+[2018.11.04-16.09.35:799][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.11.04-16.09.37:596][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.04-16.09.37:945][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
+[2018.11.04-16.09.37:945][  0]LogD3D11RHI:       3052/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.11.04-16.09.38:029][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.04-16.09.38:029][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.04-16.09.38:029][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.04-16.09.38:035][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.04-16.09.38:035][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2018.11.04-16.09.38:035][  0]LogWindows: EnumDisplayDevices:
+[2018.11.04-16.09.38:036][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:0 D:1)
+[2018.11.04-16.09.38:037][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:1 D:1)
+[2018.11.04-16.09.38:038][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.11.04-16.09.38:039][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.11.04-16.09.38:040][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.11.04-16.09.38:041][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2018.11.04-16.09.38:042][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.04-16.09.38:042][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
+[2018.11.04-16.09.38:042][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.04-16.09.38:042][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.04-16.09.38:042][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.04-16.09.38:283][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.04-16.09.38:296][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.11.04-16.09.38:298][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (E:/Project2/GITHUB DESKTOP/Bio/Bio/Intermediate/Shaders/WorkingDirectory/11216/).
+[2018.11.04-16.09.38:299][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ferran/AppData/Local/Temp/UnrealShaderWorkingDir/1F8C49AB4539A271F2E8729FB70693E2/'.
+[2018.11.04-16.09.38:299][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.04-16.09.42:924][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.04-16.09.43:474][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.04-16.09.43:936][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.04-16.09.44:459][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.04-16.09.44:459][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.04-16.09.50:315][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.04-16.09.50:955][  0]LogDerivedDataCache: Loaded boot cache 0.64s 90MB C:/Users/Ferran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.04-16.09.50:955][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ferran/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.11.04-16.09.50:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project2/GITHUB DESKTOP/Bio/Bio/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.04-16.09.50:955][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.04-16.09.50:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project2/GITHUB DESKTOP/Bio/Bio/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.04-16.09.50:955][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.04-16.09.50:974][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.04-16.09.50:989][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ferran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.04-16.09.51:026][  0]LogMaterial: Verifying Global Shaders for PCD3D_ES2
+[2018.11.04-16.09.51:026][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.04-16.09.51:035][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.04-16.09.51:036][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.04-16.09.52:744][  0]LogAssetRegistry: FAssetRegistry took 0.0069 seconds to start up
+[2018.11.04-16.09.52:756][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.011618 seconds
+[2018.11.04-16.09.53:023][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.04-16.09.53:255][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2018.11.04-16.09.54:155][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.04-16.09.54:693][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.04-16.09.55:193][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.04-16.09.55:193][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.11.04-16.09.55:193][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.04-16.09.58:307][  0]LogNetVersion: Bio , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 343922727)
+[2018.11.04-16.09.59:173][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.04-16.10.10:631][  0]LogMoviePlayer: Initializing movie player
+[2018.11.04-16.10.13:193][  0]LogCollectionManager: Loaded 0 collections in 0.003797 seconds
+[2018.11.04-16.10.13:522][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Saved/Collections/' took 0.01s
+[2018.11.04-16.10.13:522][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Developers/Ferran/Collections/' took 0.05s
+[2018.11.04-16.10.13:522][  0]LogFileCache: Scanning file cache for directory 'E:/Project2/GITHUB DESKTOP/Bio/Bio/Content/Collections/' took 0.04s
+[2018.11.04-16.10.13:522][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.11.04-16.10.13:522][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.11.04-16.10.15:361][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.04-16.10.15:684][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.04-16.10.19:484][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.11.04-16.10.19:484][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.11.04-16.10.19:958][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.11.04-16.10.22:988][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.04-16.10.27:624][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2018.11.04-16.10.27:624][  0]LogUObjectAllocator: 8398848 out of 0 bytes used by permanent object pool.
+[2018.11.04-16.10.27:624][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.04-16.10.28:617][  0]LogEngine: Initializing Engine...
+[2018.11.04-16.10.28:625][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2018.11.04-16.10.29:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.04-16.10.29:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.04-16.10.29:363][  0]LogInit: XAudio2 using 'Altavoces (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.04-16.10.29:610][  0]LogInit: FAudioDevice initialized.
+[2018.11.04-16.10.29:667][  0]LogInit: Texture streaming: Enabled
+[2018.11.04-16.10.29:670][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.11.04-16.10.29:674][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2018.11.04-16.10.29:674][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2018.11.04-16.10.29:702][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.04-16.10.29:997][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.11.04-16.10.29:997][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2018.11.04-16.10.29:997][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2018.11.04-16.10.32:789][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2018.11.04-16.10.32:789][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2018.11.04-16.10.35:380][  0]LogInit:Display: Game Engine Initialized.
+[2018.11.04-16.10.37:035][  0]LogInit:Display: Starting Game.
+[2018.11.04-16.10.37:039][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/Menu/UEDPCMENU?Name=Player
+[2018.11.04-16.10.37:040][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/Menu/UEDPCMENU?Name=Player
+[2018.11.04-16.10.37:163][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.04-16.10.37:163][  0]LogMemory: Process Physical Memory: 732.92 MB used, 841.04 MB peak
+[2018.11.04-16.10.37:163][  0]LogMemory: Process Virtual Memory: 891.26 MB used, 947.88 MB peak
+[2018.11.04-16.10.37:163][  0]LogMemory: Physical Memory: 7356.81 MB used,  797.43 MB free, 8154.25 MB total
+[2018.11.04-16.10.37:163][  0]LogMemory: Virtual Memory: 5640.16 MB used,  797.43 MB free, 134217728.00 MB total
+[2018.11.04-16.10.37:163][  0]LogMemory: 
+[2018.11.04-16.10.37:163][  0]Allocator Stats for TBB: (not implemented)
+[2018.11.04-16.10.38:478][  0]LogAIModule: Creating AISystem for world MENU
+[2018.11.04-16.10.38:489][  0]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-16.10.38:491][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/Menu/UEDPCMENU.MENU up for play (max tick rate 0) at 2018.11.04-17.10.38
+[2018.11.04-16.10.38:491][  0]LogWorld: Bringing up level for play took: 0.000659
+[2018.11.04-16.10.38:505][  0]LogLoad: Took 1.464573 seconds to LoadMap(/Temp/Autosaves/Game/Levels/Menu/UEDPCMENU)
+[2018.11.04-16.10.40:048][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.11.04-16.10.40:048][  0]LogLoad: (Engine Initialization) Total time: 73.40 seconds
+[2018.11.04-16.10.40:048][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.48 seconds
+[2018.11.04-16.10.40:048][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.11.04-16.10.40:065][  0]LogOcInput: OculusInput pre-init called
+[2018.11.04-16.10.40:065][  0]LogHMD: Starting GearVRController plugin
+[2018.11.04-16.11.15:717][896]LogAudio:Warning: Waited 65.246132ms for audio thread.
+[2018.11.04-16.11.15:717][896]LogAudio:Warning: Waited 65.566452ms for audio thread.
+[2018.11.04-16.11.16:876][944]LogAudio:Warning: Waited 52.562904ms for audio thread.
+[2018.11.04-16.11.16:876][944]LogAudio:Warning: Waited 52.595142ms for audio thread.
+[2018.11.04-16.11.17:178][957]LogAudio:Warning: Waited 39.024391ms for audio thread.
+[2018.11.04-16.11.17:178][957]LogAudio:Warning: Waited 39.054241ms for audio thread.
+[2018.11.04-16.11.17:517][972]LogAudio:Warning: Waited 48.686523ms for audio thread.
+[2018.11.04-16.11.17:517][972]LogAudio:Warning: Waited 48.720261ms for audio thread.
+[2018.11.04-16.11.19:858][ 80]LogAudio:Warning: Waited 39.660851ms for audio thread.
+[2018.11.04-16.11.19:858][ 80]LogAudio:Warning: Waited 39.692490ms for audio thread.
+[2018.11.04-16.11.19:939][ 82]LogAudio:Warning: Waited 43.255718ms for audio thread.
+[2018.11.04-16.11.19:939][ 82]LogAudio:Warning: Waited 43.288853ms for audio thread.
+[2018.11.04-16.11.22:193][179]LogAudio:Warning: Waited 46.098591ms for audio thread.
+[2018.11.04-16.11.22:193][179]LogAudio:Warning: Waited 46.129940ms for audio thread.
+[2018.11.04-16.11.26:032][339]LogAudio:Warning: Waited 43.591263ms for audio thread.
+[2018.11.04-16.11.26:032][339]LogAudio:Warning: Waited 43.622604ms for audio thread.
+[2018.11.04-16.11.32:654][626]LogAudio:Warning: Waited 44.111294ms for audio thread.
+[2018.11.04-16.11.32:654][626]LogAudio:Warning: Waited 44.147118ms for audio thread.
+[2018.11.04-16.11.36:374][785]LogAudio:Warning: Waited 45.055836ms for audio thread.
+[2018.11.04-16.11.36:374][785]LogAudio:Warning: Waited 45.087181ms for audio thread.
+[2018.11.04-16.11.36:752][803]LogAudio:Warning: Waited 39.677269ms for audio thread.
+[2018.11.04-16.11.36:752][803]LogAudio:Warning: Waited 39.716373ms for audio thread.
+[2018.11.04-16.11.39:048][895]LogAudio:Warning: Waited 55.514439ms for audio thread.
+[2018.11.04-16.11.39:048][895]LogAudio:Warning: Waited 55.571159ms for audio thread.
+[2018.11.04-16.11.44:622][117]LogAudio:Warning: Waited 57.743248ms for audio thread.
+[2018.11.04-16.11.44:932][132]LogAudio:Warning: Waited 44.876717ms for audio thread.
+[2018.11.04-16.11.44:932][132]LogAudio:Warning: Waited 44.909557ms for audio thread.
+[2018.11.04-16.11.46:250][190]LogAudio:Warning: Waited 48.505615ms for audio thread.
+[2018.11.04-16.11.46:250][190]LogAudio:Warning: Waited 48.536964ms for audio thread.
+[2018.11.04-16.12.01:760][ 11]LogAudio:Warning: Waited 44.502964ms for audio thread.
+[2018.11.04-16.12.01:760][ 11]LogAudio:Warning: Waited 44.532516ms for audio thread.
+[2018.11.04-16.12.02:071][ 25]LogAudio:Warning: Waited 59.796219ms for audio thread.
+[2018.11.04-16.12.02:071][ 25]LogAudio:Warning: Waited 59.828461ms for audio thread.
+[2018.11.04-16.12.02:832][ 56]LogAudio:Warning: Waited 65.920509ms for audio thread.
+[2018.11.04-16.12.02:832][ 56]LogAudio:Warning: Waited 65.950958ms for audio thread.
+[2018.11.04-16.12.03:257][ 72]LogAudio:Warning: Waited 51.535969ms for audio thread.
+[2018.11.04-16.12.03:258][ 72]LogAudio:Warning: Waited 52.238403ms for audio thread.
+[2018.11.04-16.12.04:040][108]LogAudio:Warning: Waited 45.402428ms for audio thread.
+[2018.11.04-16.12.04:040][108]LogAudio:Warning: Waited 45.435860ms for audio thread.
+[2018.11.04-16.12.04:129][110]LogAudio:Warning: Waited 37.707287ms for audio thread.
+[2018.11.04-16.12.04:133][110]LogAudio:Warning: Waited 41.676208ms for audio thread.
+[2018.11.04-16.12.04:498][125]LogAudio:Warning: Waited 38.048801ms for audio thread.
+[2018.11.04-16.12.04:498][125]LogAudio:Warning: Waited 38.078358ms for audio thread.
